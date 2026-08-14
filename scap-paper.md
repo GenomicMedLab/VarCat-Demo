@@ -39,3 +39,28 @@ On the left we see a tab list of all the Assertions applied to the Assessment. I
 - **Classification**: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma"_
 - **Score**: As displayed by the sliding scale, this variant/disease pairing is scored as a `9` on a scale of `-7` to `10`, which falls in the category of "likely oncogenic."
 - **Applied Evidence**: A summarized list of all the evidence supporting this Assertion's classification, grouped by strength.
+
+
+
+
+An overview of this Assertion is found at the top of the page in the **summary modal**:
+
+### Summary Modal:
+
+![alt text](images/summary-modal.png)
+
+This summary modal contains some high-level info about the Assertion, including:
+
+
+### Evidence Sections:
+Beneath the summary modal is a tab displaying all of the evidence to support this Oncogenicity Assertion as required by the [ClinGen/CGC/VICC Oncogenicity Standard Operating Procedure](https://cancervariants.org/research/standards/onc_path_sop/). Evidence is grouped into sections by type, and each section receives a **code** to denote its significance, as well as a **score** that indicates the _strength_ and _direction_ of the data in that section. 
+
+For example, take a look at the first evidence section ("Effect on Protein Product") of our TP53 p.Asp281His/Rhabdomyosarcoma Assessment's Oncogenicity Assertion:
+
+![alt text](images/evidence-tab-oncogenicity.png)
+
+Notice that VarCat has selected a code of "Not Applicable", and a score of `0` for this section. However, you can change both of these using the dropdown menus if you wish. You may also manually add evidence of your own to this section, via the "Add Evidence" button. 
+
+Scroll through the Assertion to view the sections for other types of evidence, or use the left-hand Table of Contents menu to jump to specific sections.
+
+The Assertion's overall score (displayed in the summary modal above) is the sum total of each individual sections' scores. 

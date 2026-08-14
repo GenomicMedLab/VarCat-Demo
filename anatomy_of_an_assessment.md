@@ -53,7 +53,7 @@ The Evidence Tabs look different depending on the type of Assertion you're viewi
 
 ![alt text](images/evidence-section.png)
 
-Here, Evidence is grouped into sections by type, and each section receives a **code** to denote its significance, as well as a **score** that indicates the _strength_ and _direction_ of the data in that section. 
+Here, Evidence is grouped into sections by type, and each section receives a **code** to denote its significance, as well as a **score** that indicates the _strength_ and _direction_ of the data as it applies to this Assertion. 
 
 For example, take a look at the above section titled "Effect on Protein Product". Notice that VarCat has automatically selected a code of `Not Applicable`, and a score of `0` for this section. However, Assessors can change both of these using the dropdown menus if desired. Assessors may also manually add evidence of their own to this section via the "Add Evidence" button. 
 
