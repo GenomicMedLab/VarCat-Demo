@@ -39,39 +39,39 @@ In addition to the required Oncogenicity Assertion, all Assessments may optional
 
 To view an Assertion that's already been created, click on the corresponding tab in the Summary Modal:
 
-![alt text](images/image-15.png)
+![alt text](images/summary-tab-diagnostic-inclusion.png)
 
 To add or edit the Assertion's evidence, or to create a new Assertion, click on the appropriate tab beneath the summary modal:
 
-![alt text](images/image-14.png)
+![alt text](images/evidence-tab-diagnostic-click.png)
 
 Here you'll see a list of evidence that's relevant to this Assessment's **variant**, or its **gene.** Toggle back and forth between these views using the toggle at the top of the chart:
 
-![alt text](images/image-16.png)
+![alt text](images/case-control-gene.png)
 
-![alt text](images/image-17.png)
+![alt text](images/case-control-variant.png)
 
 VarCat will automatically pull in evidence from a variety of sources that will auto-populate these tables where possible. You may also manually curate evidence by selecting the "Add Evidence" button in to the upper right of the table, and filling in the curation form:
 
-![alt text](images/image-18.png)
+![alt text](images/add-evidence-click.png)
 
-![alt text](images/image-19.png)
+![alt text](images/add-evidence-modal.png)
 
 Once you've selected or created the evidence you'd like to use, apply it to the Assertion by using the dropdown in the "Apply As" column (if not already applied):
 
-![alt text](images/image-20.png)
+![alt text](images/apply-evidence.png)
 
 Notice that the Summary Modal updates to display the newly-applied evidence, grouped by **type** (note: you may need to refresh the page). The Assertion's **score** and **classification** will also update based on the evidence you apply and how you apply it.
 
-![alt text](images/image-21.png)
+![alt text](images/summary-modal-updated.png)
 
 To manually upgrade or downgrade all evidence in a given category, use the dropdown options in the summary modal:
 
-![alt text](images/image-23.png)
+![alt text](images/summary-modal-change-section-score.png)
 
 You will be asked to provide a rationale for your decision: 
 
-![alt text](images/image-26.png)
+![alt text](images/summary-modal-change-section-score-rationale.png)
 
 ## 5. Change the Assessment's Status to `Ready to Review`:
 
