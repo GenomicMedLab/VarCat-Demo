@@ -47,7 +47,7 @@ An overview of this Assertion is found at the top of the page in the **summary m
 
 ### Summary Modal:
 
-![alt text](images/summary-modal.png)
+![alt text](/documentation/images/summary-modal.png)
 
 This summary modal contains some high-level info about the Assertion, including:
 
@@ -57,7 +57,7 @@ Beneath the summary modal is a tab displaying all of the evidence to support thi
 
 For example, take a look at the first evidence section ("Effect on Protein Product") of our TP53 p.Asp281His/Rhabdomyosarcoma Assessment's Oncogenicity Assertion:
 
-![alt text](images/evidence-tab-oncogenicity.png)
+![alt text](/documentation/images/evidence-tab-oncogenicity.png)
 
 Notice that VarCat has selected a code of "Not Applicable", and a score of `0` for this section. However, you can change both of these using the dropdown menus if you wish. You may also manually add evidence of your own to this section, via the "Add Evidence" button. 
 

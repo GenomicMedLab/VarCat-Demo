@@ -1,19 +1,19 @@
 # Anatomy of an Assessment
 The following is an explanation of the various parts of an Assessment page:
 
-![](images/assessment-anatomy.png)
+![](/documentation/images/assessment-anatomy.png)
 
 
 ## 1. Assessment Header
 
-![alt text](images/header.png)
+![alt text](/documentation/images/header.png)
 
 The header displays the variant/disease pairing being evaluated in this Assessment.
 
 
 ## 2. Status Section
 
-![alt text](images/status-section.png)
+![alt text](/documentation/images/status-section.png)
 
 Assessments progress through a "lifecycle" of statuses, as follows:
 
@@ -32,7 +32,7 @@ You may also view the Assessment's status history, including _which_ stages it h
 
 ## 3. Summary Modal
 
-![alt text](images/summary-modal.png)
+![alt text](/documentation/images/summary-modal.png)
 <figcaption><i>Summary modal, with the "Weak Supporting" Applied Evidence section expanded</i></figcaption>
 <br/>
 The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), and contains some high-level info about the currently-selected Assertion (right-hand side), including its:
@@ -51,7 +51,7 @@ The Evidence Tabs look different depending on the type of Assertion you're viewi
 
 ### Oncogenicity Classification Tab
 
-![alt text](images/evidence-section.png)
+![alt text](/documentation/images/evidence-section.png)
 
 Here, Evidence is grouped into sections by type, and each section receives a **code** to denote its significance, as well as a **score** that indicates the _strength_ and _direction_ of the data as it applies to this Assertion. 
 
@@ -61,7 +61,7 @@ The Oncogenicity Assertion's overall score (displayed in the summary modal above
 
 ### Other Assertion Evidence Tabs
 
-![alt text](images/evidence-tab-diagnostic.png)
+![alt text](/documentation/images/evidence-tab-diagnostic.png)
 
 All other Assertions display their evidence in tables, with tabs showing evidence for the **specific variant** associated with this assessment as well as evidence more broadly relevant to this variant's **gene**. 
 
@@ -73,12 +73,12 @@ The overall score for a non-oncogenic Assertion is equivalent to that of the **h
 
 ### Previous Classifications Tab
 
-![alt text](images/prev-classifications.png)
+![alt text](/documentation/images/prev-classifications.png)
 
 Unlike the other tabs, The Previous Classifications tab does _NOT_ display evidence that can be applied to an Assertion on this Assessment. Instead, it displays how this variant has been classified _when paired with other diseases_, or how _other variants on the same gene_ have been classified on other Assessments. This may serve as a useful reference for Assessors as they complete Assertions on the current Assessment.
 
 ## 5. Table of Contents Sidebar
 
-![alt text](images/table-of-contents-sidebar.png)
+![alt text](/documentation/images/table-of-contents-sidebar.png)
 
 The Table of Contents sidebar allows quick navigation to any section/sub-section of the assessment.
