@@ -17,7 +17,7 @@ From the homepage, open an Assessment by either:
 
 ## 2. Change the Assessment's Status to `Active`:
 
-In order to edit an Assessment, you must set its status to `Active` via the status button in the upper-right hand corner. Depending on the Assessment's current status, you may need to cycle through several stages before reaching "Active:"
+In order to edit an Assessment, you must set its status to `Active` via the status button in the upper-right hand corner. Depending on the Assessment's current status, you may need to cycle through several stages before reaching `Active`:
 
 ![alt text](/documentation/images/start-assessment.png)
 

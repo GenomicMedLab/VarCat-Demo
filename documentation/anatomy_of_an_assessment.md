@@ -1,5 +1,5 @@
 # Anatomy of an Assessment
-The following is an explanation of the various parts of an Assessment page:
+The following is a breakdown of the various sections of an variant/disease pairing Assessment page:
 
 ![](/documentation/images/assessment-anatomy.png)
 
@@ -17,17 +17,17 @@ The header displays the variant/disease pairing being evaluated in this Assessme
 
 Assessments progress through a "lifecycle" of statuses, as follows:
 
-- `Pending`: The Assessment has not yet been performed
-- `Active`: The Assessment is currently in the process of being filled out
-- `Awaiting Review`: The Assessment has been cursorily completed, but requires review and sign-off from a subject matter expert
+- `Pending`: The Assessment has not yet been performed.
+- `Active`: The Assessment is currently in the process of being edited.
+- `Awaiting Review`: The Assessment has been cursorily completed, but requires review and sign-off from a subject matter expert.
 - `In Review`: Expert review of the Assessment is currently underway.
-- `Reviewed`: The Assessment has received expert sign-off and is finalized
+- `Reviewed`: The Assessment has received expert sign-off and is finalized.
 
 Assessments may transition from `Reviewed` back to `Pending` to re-start the cycle; e.g., for workflows that require periodic re-review of Assessments to ensure evidence is kept up-to-date.
 
-The Status section displays the Assessment's current status, and allows Assessors to advance to the next stage or go back to the previous one.
+The Status section displays the Assessment's current status, including which user (if any) currently has the Assessment checked out. It also allows Assessors to advance to the next stage or go back to the previous one.
 
-You may also view the Assessment's status history, including _which_ stages it has been through, _when_ it transitioned between stages, and _who_ performed each stage.
+In addition, you may view the Assessment's status history, including _which_ stages it has been through, _when_ it transitioned between stages, and _who_ performed each stage.
 
 
 ## 3. Summary Modal
@@ -35,10 +35,10 @@ You may also view the Assessment's status history, including _which_ stages it h
 ![alt text](/documentation/images/summary-modal.png)
 <figcaption><i>Summary modal, with the "Weak Supporting" Applied Evidence section expanded</i></figcaption>
 <br/>
-The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), and contains some high-level info about the currently-selected Assertion (right-hand side), including its:
+The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), with some high-level info about the currently-selected Assertion (right-hand side), including its:
 
 - **Classification**: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma"_
-- **Score**: As displayed by the sliding scale, this variant/disease pairing is scored as a `9` on a scale of `-7` to `10`, which falls in the category of "likely oncogenic." This score is calculated based on the scores of the evidence that has been applied to it (see "Evidence Tabs" below for more details)
+- **Score**: As displayed by the sliding scale, the Oncogenicity Assertion above is scored as a `9` on a scale of `-7` to `10`, which falls in the category of `Likely Oncogenic`. This score is calculated based on the scores of the evidence that has been applied to it (see "Evidence Tabs" below for more details)
 - **Applied Evidence**: An expandable list of all the evidence supporting this Assertion's classification. For Oncogenicity Assertions, these items are grouped and sorted by **strength**. All other Assertions group evidence by **type**. Click on a grouping to expand the section and view all evidence items it contains.
 
 
@@ -65,7 +65,7 @@ The Oncogenicity Assertion's overall score (displayed in the summary modal above
 
 All other Assertions display their evidence in tables, with tabs showing evidence for the **specific variant** associated with this assessment as well as evidence more broadly relevant to this variant's **gene**. 
 
-Evidence from these tables can be applied to the current Assertion using the dropdowns in the `Apply As` column. To edit evidence, select the pencil icon in the `Edit` column*. To add new evidence to an Assertion, use the "Add Evidence" button in the upper right-hand corner of the tab. 
+Evidence from these tables can be applied to the current Assertion using the dropdowns in the `Apply As` column. To edit evidence, select the pencil icon in the `Edit` column*. To add new evidence, use the "Add Evidence" button in the upper right-hand corner of the tab. 
 
 > ⚠️ **\* CAUTION:** Editing evidence may impact other assessments. Learn more about editing evidence HERE [#TODO].
 
@@ -81,4 +81,4 @@ Unlike the other tabs, The Previous Classifications tab does _NOT_ display evide
 
 ![alt text](/documentation/images/table-of-contents-sidebar.png)
 
-The Table of Contents sidebar allows quick navigation to any section/sub-section of the assessment.
+The Table of Contents sidebar allows quick navigation to any section/sub-section of the Assessment.
