@@ -15,16 +15,6 @@ The header displays the variant/disease pairing being evaluated in this Assessme
 
 ![alt text](/documentation/images/status-section.png)
 
-Assessments progress through a "lifecycle" of statuses, as follows:
-
-- `Pending`: The Assessment has not yet been performed.
-- `Active`: The Assessment is currently in the process of being edited.
-- `Awaiting Review`: The Assessment has been cursorily completed, but requires review and sign-off from a subject matter expert.
-- `In Review`: Expert review of the Assessment is currently underway.
-- `Reviewed`: The Assessment has received expert sign-off and is finalized.
-
-Assessments may transition from `Reviewed` back to `Pending` to re-start the cycle; e.g., for workflows that require periodic re-review of Assessments to ensure evidence is kept up-to-date.
-
 The Status section displays the Assessment's current status, including which user (if any) currently has the Assessment checked out. It also allows Assessors to advance to the next stage or go back to the previous one.
 
 In addition, you may view the Assessment's status history, including _which_ stages it has been through, _when_ it transitioned between stages, and _who_ performed each stage.
@@ -33,13 +23,12 @@ In addition, you may view the Assessment's status history, including _which_ sta
 ## 3. Summary Modal
 
 ![alt text](/documentation/images/summary-modal.png)
-<figcaption><i>Summary modal, with the "Weak Supporting" Applied Evidence section expanded</i></figcaption>
-<br/>
-The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), with some high-level info about the currently-selected Assertion (right-hand side), including its:
 
-- **Classification**: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma"_
-- **Score**: As displayed by the sliding scale, the Oncogenicity Assertion above is scored as a `9` on a scale of `-7` to `10`, which falls in the category of `Likely Oncogenic`. This score is calculated based on the scores of the evidence that has been applied to it (see "Evidence Tabs" below for more details)
-- **Applied Evidence**: An expandable list of all the evidence supporting this Assertion's classification. For Oncogenicity Assertions, these items are grouped and sorted by **strength**. All other Assertions group evidence by **type**. Click on a grouping to expand the section and view all evidence items it contains.
+The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), with some high-level information about the currently-selected Assertion (right-hand side), including its:
+
+- **Classification**: i.e., What does the evidence for this Assertion tell us about this variant/disease pairing? The example above indicates that: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma"_
+- **Score**: i.e., How strongly does the evidence support this Assertion's Classification? As displayed by the sliding scale, the Oncogenicity Assertion above is scored as a `9` on a scale of `-7` to `10`, which falls in the category of `Likely Oncogenic`. (see "Evidence Tabs" below for more detail re: how Assertions are scored)
+- **Applied Evidence**: An summary list of all the evidence supporting this Assertion's classification. For Oncogenicity Assertions, these items are grouped and sorted by **strength**. All other Assertions group evidence by **type**. Click on a grouping to expand the section and view a list of all evidence items it contains.
 
 
 ## 4. Evidence Tabs
@@ -47,7 +36,7 @@ The summary modal displays a tabbed list of all of the Assessment's Assertions (
 
 Beneath the summary modal are tab displaying all of the evidence to support each Assertion as required by the [ClinGen/CGC/VICC Oncogenicity Standard Operating Procedure](https://cancervariants.org/research/standards/onc_path_sop/) (for Oncogenicity Assertions) or the [AMP/ASCO/CAP](https://pubmed.ncbi.nlm.nih.gov/27993330/) guidelines (for all other Assertions).
 
-The Evidence Tabs look different depending on the type of Assertion you're viewing, as explained below:
+The Evidence Tabs look different depending on the type of Assertion you're viewing:
 
 ### Oncogenicity Classification Tab
 
