@@ -26,7 +26,7 @@ VarCat automatically pulls in evidence from a variety of sources and computes an
 
 
 
-## Assessment Status
+## Assessment Status Lifecycle
 Assessments progress through a "lifecycle" of statuses, as follows:
 
 1. `Pending`: The Assessment has not yet been performed.
@@ -43,5 +43,5 @@ Assessments may transition from `Reviewed` back to `Pending` to re-start the cyc
 | ---- | ---------- |
 | **Assessment** | An evaluation of a variant-disease pairing. |
 | **Assertion** | An appraisal of one aspect of a given variant-disease pairing. Each Assessment contains an _Oncogenicity Classification,_  plus one or more of the following Assertions: _Therapeutic Response,_ _Diagnostic evaluation,_ and/or _Prognostic evaluation._ |
-| **Evidence Grouping** | A group of related **Evidence** items that together support or refute an **Assertion.** |
-| **Evidence** | A proven fact. |
+| **Evidence Grouping** | A group of related **Evidence** items that are evaluated together to support or refute an **Assertion.** |
+| **Evidence** | A data-supported fact. |

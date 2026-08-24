@@ -34,7 +34,7 @@ The summary modal displays a tabbed list of all of the Assessment's Assertions (
 ## 4. Evidence Tabs
 
 
-Beneath the summary modal are tab displaying all of the evidence to support each Assertion as required by the [ClinGen/CGC/VICC Oncogenicity Standard Operating Procedure](https://cancervariants.org/research/standards/onc_path_sop/) (for Oncogenicity Assertions) or the [AMP/ASCO/CAP](https://pubmed.ncbi.nlm.nih.gov/27993330/) guidelines (for all other Assertions).
+Beneath the summary modal are tabs displaying all the evidence that supports each Assertion as required by the [ClinGen/CGC/VICC Oncogenicity Standard Operating Procedure](https://cancervariants.org/research/standards/onc_path_sop/) (for Oncogenicity Assertions) or the [AMP/ASCO/CAP](https://pubmed.ncbi.nlm.nih.gov/27993330/) guidelines (for all other Assertions).
 
 The Evidence Tabs look different depending on the type of Assertion you're viewing:
 

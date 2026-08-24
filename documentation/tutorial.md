@@ -28,7 +28,7 @@ Only one person may edit an Assessment at a time. If your Assessment is already 
 
 ## 3. Examine & Edit the Auto-Computed Oncogenicity Assertion:
 
-VarCat automatically pulls in data from a variety of sources, and use this evidence to auto-generate an initial Oncogenicity Assertion for the Assessment. Evaluate each section to add evidence you've curated yourself, change the section's **code**, and/or update the section's **score** as applicable.
+VarCat automatically pulls in data from a variety of sources, and uses this evidence to auto-generate an initial Oncogenicity Assertion for the Assessment. Evaluate each section of this Assertion to **add additional evidence** that you've curated yourself, change the section's **code**, and/or update the section's **score** as applicable.
 
 ![alt text](/documentation/images/edit-onco-evidence-scode.png)
 <figcaption><i>Editing a section's evidence code</i></figcaption>
@@ -45,19 +45,19 @@ To add or edit the Assertion's evidence, or to create a new Assertion, click on 
 
 ![alt text](/documentation/images/evidence-tab-diagnostic-click.png)
 
-Here you'll see a list of evidence that's relevant to this Assessment's **variant**, or its **gene.** Toggle back and forth between these views using the toggle at the top of the chart:
+Here you'll see a list of evidence that's relevant to this Assessment's **variant** or its **gene.** Toggle back and forth between these views using the toggle at the top of the chart:
 
 ![alt text](/documentation/images/case-control-gene.png)
 
 ![alt text](/documentation/images/case-control-variant.png)
 
-VarCat will automatically pull in evidence from a variety of sources that will auto-populate these tables where possible. You may also manually curate evidence by selecting the "Add Evidence" button in to the upper right of the table, and filling in the curation form:
+VarCat will pull in evidence for these tables automatically where possible. Additionally, you may also manually curate evidence by selecting the "Add Evidence" button to the upper right of the table, which will open the evidence curation form:
 
 ![alt text](/documentation/images/add-evidence-click.png)
 
 ![alt text](/documentation/images/add-evidence-modal.png)
 
-Once you've selected or created the evidence you'd like to use, apply it to the Assertion by using the dropdown in the "Apply As" column (if not already applied):
+If the evidence you'd like to use has not already been applied to the Assertion, you can apply it now by using the dropdown in the "Apply As" column:
 
 ![alt text](/documentation/images/apply-evidence.png)
 
@@ -75,6 +75,6 @@ You will be asked to provide a rationale for your decision:
 
 ## 5. Change the Assessment's Status to `Ready to Review`:
 
-When you've finished creating/editing all the Assertions that you want, change the Assessment's status to "Ready to Review." This indicates that the Assessment is complete and ready for final sign-off.
+When you've finished creating/editing all the Assertions to your satisfaction, change the Assessment's status to `Ready to Review`. This indicates that the Assessment is complete and ready for final sign-off.
 
 ![alt text](/documentation/images/ready-for-review.png)
