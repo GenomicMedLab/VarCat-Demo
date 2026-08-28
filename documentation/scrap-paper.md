@@ -64,3 +64,15 @@ Notice that VarCat has selected a code of "Not Applicable", and a score of `0` f
 Scroll through the Assertion to view the sections for other types of evidence, or use the left-hand Table of Contents menu to jump to specific sections.
 
 The Assertion's overall score (displayed in the summary modal above) is the sum total of each individual sections' scores. 
+
+
+
+
+VarCat automatically pulls in evidence from a variety of sources and computes an automated score for each relevant Evidence grouping. 
+
+Assessors can manually apply/un-apply evidence as needed, as well as adjust the weight and directionality for these scores. They can also add their own evidence if they wish to include data from sources outside of those that VarCat pulls in on its own.
+
+- a) **Directionality**: Whether the subject variant is oncogenic for this tumor type, and
+
+
+For instance, say an assessor adds a new evidence item for TP53 Asp281His on a TP53 Asp281His/Rhabdomyosarcoma Assessment. Later, a different assessor working on a TP53 Asp281His/Osteosarcoma Assessment sees this evidence, since it is relevant to the TP53 Asp281His variant, and decides to modify it. This could cause changes on the original TP53 Asp281His/Rhabdomyosarcoma that the first assessor never intended.
