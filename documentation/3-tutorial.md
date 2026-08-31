@@ -1,78 +1,75 @@
-# Tutorial: How To Complete An Assessment
+# Tutorial: How to Complete an Assessment
 
-[TODO] /17-7673779-C-G/ncit:C3359
-
-The following is a guide outlining how to utilize VarCat to complete an Assessment of a variant/disease pairing utilizing the [ClinGen/CGC/VICC Oncogenicity SOP](https://cancervariants.org/research/standards/onc_path_sop/) and [AMP/ASCO/CAP guidelines](https://pubmed.ncbi.nlm.nih.gov/27993330/) to evaluate **oncogenicity**, **therapeutic response**, **prognostic evidence**, and **diagnostic evidence**.
+This guide walks through a typical assessment workflow in VarCat.
 
 ## 1. Open an Assessment
-From the homepage, open an Assessment by either:
+From the home page, open an assessment by:
 
-  - a) Selecting an Assessment from the list, or 
-  - b) Entering a variant/disease pairing of your choosing in the selection form above the table. 
+- a) Entering a variant + disease pairing in the form (shown below), or
+- b) Selecting a previously-created assessment from the table
 
-![alt text](/documentation/images/landing-page.png)
+![Landing page](/documentation/images/landing-page.png)
 
-## 2. Change the Assessment's Status to `Active`:
+## 2. Change the Status to `Active`
+An assessment must be `Active` before you can edit it.
 
-In order to edit an Assessment, you must set its [status](./1-concepts.md#assessment-status-lifecycle) to `Active` via the status button in the upper-right hand corner. Depending on the Assessment's current status, you may need to cycle through several stages before reaching `Active`:
+Use the status control in the upper right corner to move the assessment to `Active`.
 
-![alt text](/documentation/images/start-assessment.png)
+![Start assessment](/documentation/images/start-assessment.png)
 
-Only one person may edit an Assessment at a time. If your Assessment is already active, but is checked out to someone else, you will need to overtake the Assessment from them:
+Only one user can edit an assessment at a time. If another user has it checked out, you will need to overtake it before continuing.
 
-![alt text](/documentation/images/overtake-assessment.jpg)
+![Overtake assessment](/documentation/images/overtake-assessment.jpg)
 
+## 3. Review the Oncogenicity Assertion
+VarCat creates an initial oncogenicity assertion automatically.
 
-## 3. Examine & Edit the Auto-Computed Oncogenicity Assertion:
+Review each evidence section and update it as needed. You can:
 
-VarCat automatically pulls in data from a variety of sources, and uses this evidence to auto-generate an initial Oncogenicity Assertion for the Assessment. Evaluate each section of this Assertion to **add additional evidence** that you've curated yourself, change the section's **code**, and/or update the section's **score** as applicable.
+- Curate your own additional evidence manually
+- Revise the section's auto-selected code
+- Change the section's auto-computed score
 
-![alt text](/documentation/images/edit-onco-evidence-scode.png)
-<figcaption><i>Editing a section's evidence code</i></figcaption>
+![Edit oncogenicity section](/documentation/images/edit-onco-evidence-scode.png)
 
+## 4. [Optional] Add or Review Other Assertions
+If needed, add or review therapeutic, diagnostic, and/or prognostic assertions.
 
-## 4. [Optional] Add Additional Assertions:
-In addition to the required Oncogenicity Assertion, all Assessments may optionally include one or more additional Assertions following the [AMP/ASCO/CAP](https://pubmed.ncbi.nlm.nih.gov/27993330/) guidelines.
+Use the Summary Modal to view assertions that already exist:
 
-To view an Assertion that's already been created, click on the corresponding tab in the Summary Modal:
+![Summary modal diagnostic tab](/documentation/images/summary-tab-diagnostic-inclusion.png)
 
-![alt text](/documentation/images/summary-tab-diagnostic-inclusion.png)
+To create a new assertion or work on an existing one, click on the corresponding evidence tab below the summary:
 
-To add or edit the Assertion's evidence, or to create a new Assertion, click on the appropriate [Evidence Tab](./2-anatomy_of_an_assessment.md#4-evidence-tabs) beneath the summary modal:
+![Diagnostic evidence tab click](/documentation/images/evidence-tab-diagnostic-click.png)
 
-![alt text](/documentation/images/evidence-tab-diagnostic-click.png)
+Toggle between variant-level and gene-level evidence where available:
 
-Here you'll see a list of evidence that's relevant to this Assessment's **variant** or its **gene.** Toggle back and forth between these views using the toggle at the top of the chart:
+![Gene evidence view](/documentation/images/case-control-gene.png)
 
-![alt text](/documentation/images/case-control-gene.png)
+![Variant evidence view](/documentation/images/case-control-variant.png)
 
-![alt text](/documentation/images/case-control-variant.png)
+If needed, add new evidence with **Add Evidence**.
 
-VarCat will pull in evidence for these tables automatically where possible. Additionally, you may also manually curate evidence by selecting the "Add Evidence" button to the upper right of the table, which will open the evidence curation form:
+![Add evidence button](/documentation/images/add-evidence-click.png)
 
-![alt text](/documentation/images/add-evidence-click.png)
+Apply evidence with the `Apply As` dropdown, if needed.
 
-![alt text](/documentation/images/add-evidence-modal.png)
+![Apply evidence](/documentation/images/apply-evidence.png)
 
-If the evidence you'd like to use has not already been applied to the Assertion, you can apply it now by using the dropdown in the "Apply As" column:
+After evidence is applied, the Summary Modal updates to reflect the current classification, score, and applied evidence.
 
-![alt text](/documentation/images/apply-evidence.png)
+![Updated summary modal](/documentation/images/summary-modal-updated.png)
 
-Notice that the Summary Modal updates to display the newly-applied evidence, grouped by **type** (note: you may need to refresh the page). The Assertion's **score** and **classification** will also update based on the evidence you apply and how you apply it.
+You can also adjust the applied strength for a grouped category from the Summary Modal.
 
-![alt text](/documentation/images/summary-modal-updated.png)
-
-To manually upgrade or downgrade all evidence in a given category, use the dropdown options in the summary modal:
-
-![alt text](/documentation/images/summary-modal-change-section-score.png)
+![Change grouped score](/documentation/images/summary-modal-change-section-score.png)
 
 You will be asked to provide a rationale for your decision: 
 
-![alt text](/documentation/images/summary-modal-change-section-score-rationale.png)
+![Grouped score rationale](/documentation/images/summary-modal-change-section-score-rationale.png)
 
+## 6. Change the Status to `Awaiting Review`
+When the assessment is complete, move it to `Awaiting Review` so it can be reviewed and signed off.
 
-## 6. Change the Assessment's Status to `Ready to Review`:
-
-When you've finished creating/editing all the Assertions to your satisfaction, change the Assessment's status to `Ready to Review`. This indicates that the Assessment is complete and ready for final sign-off.
-
-![alt text](/documentation/images/ready-for-review.png)
+![Awaiting review](/documentation/images/ready-for-review.png)

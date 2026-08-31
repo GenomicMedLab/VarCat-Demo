@@ -1,73 +1,84 @@
 # Anatomy of an Assessment
-The following is a breakdown of the various sections of an variant/disease pairing Assessment page:
+
+This page shows the main parts of an assessment view.
 
 ![](/documentation/images/assessment-anatomy.png)
 
-
 ## 1. Assessment Header
 
-![alt text](/documentation/images/header.png)
+![Assessment header](/documentation/images/header.png)
 
-The header displays the variant/disease pairing being evaluated in this Assessment.
-
+Shows the variant and disease pairing for the current assessment.
 
 ## 2. Status Section
 
-![alt text](/documentation/images/status-section.png)
+![Status section](/documentation/images/status-section.png)
 
-The Status section displays the Assessment's current status, including which user (if any) currently has the Assessment checked out. It also allows Assessors to advance to the next stage or go back to the previous one.
+Shows the assessment's current status and who, if anyone, has it checked out.
 
-In addition, you may view the Assessment's status history, including _which_ stages it has been through, _when_ it transitioned between stages, and _who_ performed each stage.
+Use this section to:
 
+- **Move** the assessment to the next or previous status
+- **Overtake** an active assessment from another user
+- **Review** the assessment's status history, including _who_ previously checked out the assessment and _when_
 
 ## 3. Summary Modal
 
-![alt text](/documentation/images/summary-modal.png)
+![Summary modal](/documentation/images/summary-modal.png)
 
-The summary modal displays a tabbed list of all of the Assessment's Assertions (left-hand side), with some high-level information about the currently-selected Assertion (right-hand side), including its:
+Lists all assertions in the assessment (left) and summarizes the currently-selected one (right).
 
-- **Classification**: i.e., What does the evidence for this Assertion tell us about this variant/disease pairing? The example above indicates that: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma"_
-- **Score**: i.e., How strongly does the evidence support this Assertion's Classification? As displayed by the sliding scale, the Oncogenicity Assertion above is scored as a `9` on a scale of `-7` to `10`, which falls in the category of `Likely Oncogenic`. (see "Evidence Tabs" below for more detail re: how Assertions are scored)
-- **Applied Evidence**: An summary list of all the evidence supporting this Assertion's classification. For Oncogenicity Assertions, these items are grouped and sorted by **strength**. All other Assertions group evidence by **type**. Click on a grouping to expand the section and view a list of all evidence items it contains.
+For the selected assertion, the modal shows:
 
+- **Classification**: The current conclusion drawn by this assertion
+- **Score**: The current strength of support the applied evidence has for this conclusion
+- **Applied Evidence**: A summary list of the evidence currently contributing to that result
+
+Oncogenicity evidence is grouped by **strength**. Other assertions group evidence by **type**.
 
 ## 4. Evidence Tabs
 
+These tabs contain the evidence used for each assertion.
 
-Beneath the summary modal are tabs displaying all the evidence that supports each Assertion as required by the [ClinGen/CGC/VICC Oncogenicity Standard Operating Procedure](https://cancervariants.org/research/standards/onc_path_sop/) (for Oncogenicity Assertions) or the [AMP/ASCO/CAP](https://pubmed.ncbi.nlm.nih.gov/27993330/) guidelines (for all other Assertions).
+### Oncogenicity Tab
 
-The Evidence Tabs look different depending on the type of Assertion you're viewing:
+![Oncogenicity tab](/documentation/images/evidence-section.png)
 
-### Oncogenicity Classification Tab
+Evidence is organized into sections by evidence type. Each section has:
 
-![alt text](/documentation/images/evidence-section.png)
+- Any **evidence items** of the titular type
+- A **code** indicating the significance of the findings
+- A **score** indicating the strength of the findings
 
-Here, Evidence is grouped into sections by type, and each section receives a **code** to denote its significance, as well as a **score** that indicates the _strength_ and _direction_ of the data as it applies to this Assertion. 
+Users can review the auto selected values, adjust them if needed, and add evidence to a section.
 
-For example, take a look at the above section titled "Effect on Protein Product". Notice that VarCat has automatically selected a code of `Not Applicable`, and a score of `0` for this section. However, Assessors can change both of these using the dropdown menus if desired. Assessors may also manually add evidence of their own to this section via the "Add Evidence" button. 
+The overall oncogenicity assertion score is the **sum** of all individual section scores.
 
-The Oncogenicity Assertion's overall score (displayed in the summary modal above) is the **sum total** of each individual sections' scores. 
+### Therapeutic, Diagnostic, and Prognostic Tabs
 
-### Other Assertion Evidence Tabs
+![Diagnostic evidence tab](/documentation/images/evidence-tab-diagnostic.png)
 
-![alt text](/documentation/images/evidence-tab-diagnostic.png)
+These tabs show evidence in tables. Each table may include:
 
-All other Assertions display their evidence in tables, with tabs showing evidence for the **specific variant** associated with this assessment as well as evidence more broadly relevant to this variant's **gene**. 
+- Evidence tied to the specific variant
+- Evidence tied to the broader gene
 
-Evidence from these tables can be applied to the current Assertion using the dropdowns in the `Apply As` column. To edit evidence, select the pencil icon in the `Edit` column*. To add new evidence, use the "Add Evidence" button in the upper right-hand corner of the tab. 
+Users can:
 
-> ⚠️ **\* CAUTION:** Editing evidence may impact other assessments. Learn more about editing evidence HERE [#TODO].
+- **Apply** evidence with the `Apply As` column
+- **Add** new evidence with the `Add Evidence` button
+- **Edit** evidence (where editing is allowed)
 
-The overall score for a non-oncogenic Assertion is equivalent to that of the **highest-ranked evidence applied to it**.
+The overall score for these assertion types comes from the **highest ranked** applied evidence.
 
 ### Previous Classifications Tab
 
-![alt text](/documentation/images/prev-classifications.png)
+![Previous classifications tab](/documentation/images/prev-classifications.png)
 
-Unlike the other tabs, The Previous Classifications tab does _NOT_ display evidence that can be applied to an Assertion on this Assessment. Instead, it displays how this variant has been classified _when paired with other diseases_, or how _other variants on the same gene_ have been classified on other Assessments. This may serve as a useful reference for Assessors as they complete Assertions on the current Assessment.
+This tab is reference only. It shows how related variants or genes were classified in other assessments.
 
 ## 5. Table of Contents Sidebar
 
-![alt text](/documentation/images/table-of-contents-sidebar.png)
+![Table of contents sidebar](/documentation/images/table-of-contents-sidebar.png)
 
-The Table of Contents sidebar allows quick navigation to any section/sub-section of the Assessment.
+Lets users jump to a section of the assessment page.

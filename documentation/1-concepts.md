@@ -1,68 +1,63 @@
 # Concepts to Know
 
 ## Overview
-The Variation Categorizer (VarCat) is designed to help with somatic variant prioritization and interpretation by utilizing the ClinGen/CGC/VICC Oncogenicity SOP and AMP/ASCO/CAP guidelines to evaluate **oncogenicity**, **therapeutic response**, **prognostic evidence**, and **diagnostic evidence** for various variant/disease pairings. It is intended to assess SNVs and less complex forms of variation in accordance with the ClinGen/CGC/VICC Oncogenicity guidelines.
+VarCat assists users in evaluating somatic variant/disease pairings by curating evidence to support conclusions about oncogenicity and, when needed, therapeutic, diagnostic, and/or prognostic significance.
 
+## Core Terms
+### Assessment
+An **assessment** is a review of one variant/disease pairing.
 
-## Assessments and Assertions
-VarCat is organized around `Assessments` that evaluate specific variant-disease pairings. Each assessment contains several `Assertions` that analyze different aspects of the pairing using the following standardized guidelines: 
+### Assertion
+An **assertion** is one conclusion within an assessment.
 
-- **[ClinGen/CGC/VICC Oncogenicity Guidelines](https://cancervariants.org/research/standards/onc_path_sop/):**
-    - Oncogenicity Classification
+Every assessment contains one or more assertions that analyze different aspects of the pairing according to the following standardized guidelines: 
+
+- **[ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures](https://cancervariants.org/research/standards/onc_path_sop/):**
+   - Oncogenicity Classification*
 - **[AMP/ASCO/CAP Guidelines](https://pubmed.ncbi.nlm.nih.gov/27993330/):**
-    - Therapeutic Response
-    - Diagnostic Inclusion/Exclusion
-    - Prognostic Outcome Prediction
+   - Therapeutic Response
+   - Diagnostic Inclusion/Exclusion
+   - Prognostic Outcome Prediction
 
-For example, an Oncogenicity Classification Assertion for an Assessment of **TP53 Asp281His** + **Rhabdomyosarcoma** might be: _"TP53 p.Asp281His is classified **likely oncogenic** in Rhabdomyosarcoma."_ A Diagnostic Assertion for the same variant/disease pairing might be: _"TP53 supports a **strong clinical significance** classification as an **inclusion** criterion for Rhabdomyosarcoma."_
+\*An Oncogenicity Classification assertion is **required** on every assessment; all other assertions are optional.
 
-Each assessment _must_ contain an Oncogenicity assertion, and may optionally include one or more AMP/ASCO/CAP assertions as well.
+### Evidence
+**Evidence** is the information used to support or refute an assertion.
 
+Evidence is handled in two steps:
 
-## Evidence
-Each Assertion on an Assessment is supported by `Evidence`. Adding Evidence to an Assertion is done in two steps: first, Evidence is _curated_, then it is _applied_:
+1. **Curation**:
+   - VarCat pulls in evidence automatically from a variety of sources where possible. Users may optionally add additional evidence from other sources or edit the VarCat-curated evidence if desired.
+2. **Application**:
+   - Curated evidence must be applied to an assertion by giving it a **score** that tells VarCat the _strength_ and _directionality_ of its impact:
+      - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the Assertion is attempting to make
+      - **Strength**: How _confident_ we are that this evidence supports that conclusion
 
-### Curating Evidence
-VarCat automatically pulls in Evidence from a variety of sources for all of an Assessment's Assertions. Assessors can also add their own evidence if they wish to include data from sources outside of those that VarCat sources on its own (TODO: See link here for tutorial).
+#### Shared Evidence
+Evidence for a variant is **shared** across all of that variant's assessments to reduce duplicative curation efforts.
 
-Evidence related to a given variant is **shared** across all of that variant's Assessments. This means that evidence only has to be curated once, eliminating the need for duplicate work!
+Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted.
 
-### Applying Evidence
-Once Evidence is curated, it needs to be _applied_ to the Assertion it supports/refutes. This gives the evidence a **score** that tells VarCat HOW the evidence impacts the Assertion, both in terms of _directionality_ and  _strength_:
-
-- a) **Directionality**: Whether the Evidence supports or refutes the statement the Assertion is attempting to make, and
-- b) **Strength**: How confident we are that this evidence supports that conclusion
-
-Individual Evidence items are not applied on their own; instead, items of the same type are grouped together. All Evidence items under a given grouping are evaluated as one and are applied to the Assertion **under a single score**.
-
-For example, one group of Evidence may report a set of gnomAD allele frequency data about TP53 p.Asp281His to provide _moderate_ evidence _supporting_ a proposition that it causes Rhabdomyosarcoma.
-
-VarCat automatically applies Evidence for Oncogenicity Assertions, but Assessors may change if/how these items are applied if they wish. 
+## Evidence Line
+Evidence items of the same type are grouped together under a single **evidence line**. All items grouped under a given evidence line are evaluated as one and are applied **under a single score**.
 
 
-### ⚠️ Editing/Deleting Evidence
-Because Evidence is shared across Assessments, editing Evidence items is generally **not advised**, as edits may have unintended consequences on other Assessments that have already applied the Evidence. Therefore, this functionality is largely unavailable, with a few exceptions. For instance, in some places this problem is circumvented by allowing "edits" that create fresh copies of the original item containing the new updates.
+## Assessment Statuses
+Assessments move through a lifecycle of the following statuses:
 
-For the same reason, deletion of Evidence items is not enabled.
+1. `Pending`
+2. `Active`
+3. `Awaiting Review`
+4. `In Review`
+5. `Reviewed`
 
-
-## Assessment Status Lifecycle
-Assessments progress through a "lifecycle" of statuses, as follows:
-
-1. `Pending`: The Assessment has not yet been performed.
-2. `Active`: The Assessment is currently in the process of being edited.
-3. `Awaiting Review`: The Assessment has been cursorily completed, but requires review and sign-off from a subject matter expert.
-4. `In Review`: Expert review of the Assessment is currently underway.
-5. `Reviewed`: The Assessment has received expert sign-off and is finalized.
-
-Assessments may transition from `Reviewed` back to `Pending` to re-start the cycle; e.g., for workflows that require periodic re-review of Assessments to ensure Evidence is kept up-to-date.
-
+An assessment can return to `Pending` if it needs to be worked again.
 
 ## Quick-Reference Glossary
-| _Term_ | _Definition_ |
-| ---- | ---------- |
-| **Assessment** | An evaluation of a variant-disease pairing. |
-| **Assertion** | An appraisal of one aspect of a given variant-disease pairing. Each Assessment contains an _Oncogenicity Classification,_  plus one or more of the following Assertions: _Therapeutic Response,_ _Diagnostic evaluation,_ and/or _Prognostic evaluation._ |
-| **Evidence Grouping** | A group of related **Evidence** items that are evaluated together to support or refute an **Assertion.** |
-| **Evidence** | A data-supported fact. |
-| **Assessment Status** | Indicates what stage the Assessment is in within its curation lifecycle |
+| Term | Meaning |
+| ---- | ------- |
+| _Assessment_ | A review of one variant and one disease pairing. |
+| _Assertion_ | One conclusion within an assessment. |
+| _Evidence_ | Information used to support or refute an assertion. |
+| _Evidence Line_ | A set of related evidence items scored together. |
+| _Assessment Status_ | The current stage of the assessment workflow. |
