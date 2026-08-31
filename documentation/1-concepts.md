@@ -1,12 +1,15 @@
 # Concepts to Know
 
+## Overview
+The Variation Categorizer (VarCat) is designed to help with somatic variant prioritization and interpretation by utilizing the ClinGen/CGC/VICC Oncogenicity SOP and AMP/ASCO/CAP guidelines to evaluate **oncogenicity**, **therapeutic response**, **prognostic evidence**, and **diagnostic evidence** for various variant/disease pairings. It is intended to assess SNVs and less complex forms of variation in accordance with the ClinGen/CGC/VICC Oncogenicity guidelines.
+
 
 ## Assessments and Assertions
 VarCat is organized around `Assessments` that evaluate specific variant-disease pairings. Each assessment contains several `Assertions` that analyze different aspects of the pairing using the following standardized guidelines: 
 
-- **ClinGen/CGC/VICC Oncogenicity Guidelines:**
+- **[ClinGen/CGC/VICC Oncogenicity Guidelines](https://cancervariants.org/research/standards/onc_path_sop/):**
     - Oncogenicity Classification
-- **AMP/ASCO/CAP Guidelines:**
+- **[AMP/ASCO/CAP Guidelines](https://pubmed.ncbi.nlm.nih.gov/27993330/):**
     - Therapeutic Response
     - Diagnostic Inclusion/Exclusion
     - Prognostic Outcome Prediction
@@ -17,7 +20,7 @@ Each assessment _must_ contain an Oncogenicity assertion, and may optionally inc
 
 
 ## Evidence
-Each Assertion on an Assessment is supported by `Evidence`. Adding Evidence to an Assertion is done in two steps: first, Evidence is _curated_, then it is _applied_. 
+Each Assertion on an Assessment is supported by `Evidence`. Adding Evidence to an Assertion is done in two steps: first, Evidence is _curated_, then it is _applied_:
 
 ### Curating Evidence
 VarCat automatically pulls in Evidence from a variety of sources for all of an Assessment's Assertions. Assessors can also add their own evidence if they wish to include data from sources outside of those that VarCat sources on its own (TODO: See link here for tutorial).
@@ -34,9 +37,11 @@ Individual Evidence items are not applied on their own; instead, items of the sa
 
 For example, one group of Evidence may report a set of gnomAD allele frequency data about TP53 p.Asp281His to provide _moderate_ evidence _supporting_ a proposition that it causes Rhabdomyosarcoma.
 
+VarCat automatically applies Evidence for Oncogenicity Assertions, but Assessors may change if/how these items are applied if they wish. 
+
 
 ### ⚠️ Editing/Deleting Evidence
-Because Evidence is shared across Assessments, editing Evidence items is **not advised**, as edits may have unintended consequences on other Assessments that have already applied the Evidence. Therefore, this functionality is largely unavailable, with a few exceptions. For instance, in some places this problem is circumvented by allowing "edits" that create fresh copies of the original item containing the new updates.
+Because Evidence is shared across Assessments, editing Evidence items is generally **not advised**, as edits may have unintended consequences on other Assessments that have already applied the Evidence. Therefore, this functionality is largely unavailable, with a few exceptions. For instance, in some places this problem is circumvented by allowing "edits" that create fresh copies of the original item containing the new updates.
 
 For the same reason, deletion of Evidence items is not enabled.
 
@@ -53,7 +58,7 @@ Assessments progress through a "lifecycle" of statuses, as follows:
 Assessments may transition from `Reviewed` back to `Pending` to re-start the cycle; e.g., for workflows that require periodic re-review of Assessments to ensure Evidence is kept up-to-date.
 
 
-## Glossary
+## Quick-Reference Glossary
 | _Term_ | _Definition_ |
 | ---- | ---------- |
 | **Assessment** | An evaluation of a variant-disease pairing. |

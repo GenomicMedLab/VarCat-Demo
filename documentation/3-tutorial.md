@@ -1,11 +1,8 @@
 # Tutorial: How To Complete An Assessment
 
-[DELETE] /17-7673779-C-G/ncit:C3359
+[TODO] /17-7673779-C-G/ncit:C3359
 
-## Overview
-The Variation Categorizer (VarCat) is designed to help with somatic variant prioritization and interpretation by utilizing the ClinGen/CGC/VICC Oncogenicity SOP and AMP/ASCO/CAP guidelines to evaluate **oncogenicity**, **therapeutic response**, **prognostic evidence**, and **diagnostic evidence** for various variant/disease pairings. It is intended to assess SNVs and less complex forms of variation in accordance with the ClinGen/CGC/VICC Oncogenicity guidelines.
-
-The following is a guide outlining how to utilize VarCat to complete such an evaluation.
+The following is a guide outlining how to utilize VarCat to complete an Assessment of a variant/disease pairing utilizing the [ClinGen/CGC/VICC Oncogenicity SOP](https://cancervariants.org/research/standards/onc_path_sop/) and [AMP/ASCO/CAP guidelines](https://pubmed.ncbi.nlm.nih.gov/27993330/) to evaluate **oncogenicity**, **therapeutic response**, **prognostic evidence**, and **diagnostic evidence**.
 
 ## 1. Open an Assessment
 From the homepage, open an Assessment by either:
@@ -17,7 +14,7 @@ From the homepage, open an Assessment by either:
 
 ## 2. Change the Assessment's Status to `Active`:
 
-In order to edit an Assessment, you must set its status to `Active` via the status button in the upper-right hand corner. Depending on the Assessment's current status, you may need to cycle through several stages before reaching `Active`:
+In order to edit an Assessment, you must set its [status](./1-concepts.md#assessment-status-lifecycle) to `Active` via the status button in the upper-right hand corner. Depending on the Assessment's current status, you may need to cycle through several stages before reaching `Active`:
 
 ![alt text](/documentation/images/start-assessment.png)
 
@@ -41,7 +38,7 @@ To view an Assertion that's already been created, click on the corresponding tab
 
 ![alt text](/documentation/images/summary-tab-diagnostic-inclusion.png)
 
-To add or edit the Assertion's evidence, or to create a new Assertion, click on the appropriate tab beneath the summary modal:
+To add or edit the Assertion's evidence, or to create a new Assertion, click on the appropriate [Evidence Tab](./2-anatomy_of_an_assessment.md#4-evidence-tabs) beneath the summary modal:
 
 ![alt text](/documentation/images/evidence-tab-diagnostic-click.png)
 
@@ -73,7 +70,8 @@ You will be asked to provide a rationale for your decision:
 
 ![alt text](/documentation/images/summary-modal-change-section-score-rationale.png)
 
-## 5. Change the Assessment's Status to `Ready to Review`:
+
+## 6. Change the Assessment's Status to `Ready to Review`:
 
 When you've finished creating/editing all the Assertions to your satisfaction, change the Assessment's status to `Ready to Review`. This indicates that the Assessment is complete and ready for final sign-off.
 
