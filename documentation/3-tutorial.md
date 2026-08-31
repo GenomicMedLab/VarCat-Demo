@@ -39,7 +39,7 @@ Use the Summary Modal to view assertions that already exist:
 
 ![Summary modal diagnostic tab](/documentation/images/summary-tab-diagnostic-inclusion.png)
 
-To create a new assertion or work on an existing one, click on the corresponding evidence tab below the summary:
+Click the corresponding evidence tab below the summary to work on an existing assertion. If no assertion exists for that type yet, applying the first piece of evidence will create it automatically.
 
 ![Diagnostic evidence tab click](/documentation/images/evidence-tab-diagnostic-click.png)
 
