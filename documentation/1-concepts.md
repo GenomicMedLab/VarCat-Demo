@@ -60,4 +60,4 @@ Assessments may transition from `Reviewed` back to `Pending` to re-start the cyc
 | **Assertion** | An appraisal of one aspect of a given variant-disease pairing. Each Assessment contains an _Oncogenicity Classification,_  plus one or more of the following Assertions: _Therapeutic Response,_ _Diagnostic evaluation,_ and/or _Prognostic evaluation._ |
 | **Evidence Grouping** | A group of related **Evidence** items that are evaluated together to support or refute an **Assertion.** |
 | **Evidence** | A data-supported fact. |
-| Assessment Status | Indicates what stage the Assessment is in within its curation lifecycle |
+| **Assessment Status** | Indicates what stage the Assessment is in within its curation lifecycle |
