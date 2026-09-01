@@ -10,18 +10,7 @@ From the home page, open an assessment by:
 
 ![Landing page](/documentation/images/landing-page.png)
 
-## 2. Change the Status to `Active`
-An assessment must be `Active` before you can edit it.
-
-Use the status control in the upper right corner to move the assessment to `Active`.
-
-![Start assessment](/documentation/images/start-assessment.png)
-
-Only one user can edit an assessment at a time. If another user has it checked out, you will need to overtake it before continuing.
-
-![Overtake assessment](/documentation/images/overtake-assessment.jpg)
-
-## 3. Explore the Assessment's Structure
+## 2. Explore the Assessment's Structure
 
 ![Assessment layout](/documentation/images/assessment-anatomy.png)
 
@@ -36,6 +25,18 @@ Only one user can edit an assessment at a time. If another user has it checked o
     - _Applied Evidence_: A summary list of the evidence currently contributing to that result
 4. **Evidence tabs** contain the evidence for each assertion type.
 5. The **table of contents sidebar** allows quick navigation to the various sections of the assessment.
+
+## 3. Change the Status to `Active`
+An assessment must be `Active` before you can edit it.
+
+Use the status control in the upper right corner to move the assessment to `Active`.
+
+![Start assessment](/documentation/images/start-assessment.png)
+
+Only one user can edit an assessment at a time. If it is currently checked out by another user, you will need to overtake it:
+
+![Overtake assessment](/documentation/images/overtake-assessment.jpg)
+
 
 ## 4. Review the Oncogenicity Assertion
 VarCat creates an initial oncogenicity assertion automatically.
