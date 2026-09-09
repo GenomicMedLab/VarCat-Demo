@@ -28,7 +28,7 @@ VarCat creates an initial oncogenicity assertion automatically. Look it over and
 
 ### A) Audit Each Section's Evidence
 
-Oncogenicity evidence is organized into sections by type. Each section has:
+Oncogenicity evidence is organized into sections by type (i.e., [Evidence Lines](./1-concepts.md#evidence-line)). Each Evidence Line section has:
 
 - Any **evidence items** of the titular type
 - A **code** indicating the significance of the findings
@@ -38,9 +38,10 @@ Oncogenicity evidence is organized into sections by type. Each section has:
 
 Review each evidence section and update it as needed. You can:
 
-- Curate your own additional evidence manually
-- Revise the section's auto-selected code
-- Change the section's auto-computed score
+- Curate your own additional evidence manually (via the "Add Evidence" button)
+- Revise the evidence line's auto-selected code (via the code selection dropdown)
+- Change the evidence line's auto-computed score (via the score selection dropdown)
+- Review the evidence line's history (on the section's history tab, accessed via the "rewind" icon in the upper-right corner of the section)
 
 ### B) Validate the Assertion's Overall Score
 
