@@ -38,18 +38,18 @@ Evidence for a variant is **shared** across all of that variant's assessments to
 
 Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted.
 
-## Evidence Line
+### Evidence Line
 Evidence items of the same type are grouped together under a single **evidence line**. All items grouped under a given evidence line are evaluated as one and are applied **under a single score**.
 
 
-## Assessment Statuses
+### Assessment Statuses
 Assessments move through a lifecycle of the following statuses:
 
-1. `Pending`
-2. `Active`
-3. `Awaiting Review`
-4. `In Review`
-5. `Reviewed`
+1. `Pending`: Assessment has not yet been completed.
+2. `Active`: Assessment is actively being filled out.
+3. `Awaiting Review`: Assessment is complete, but awaiting expert review and final sign-off.
+4. `In Review`: Assessment is being reviewed by a subject matter expert (e.g., Clinical Director or similar)
+5. `Reviewed`: Assessment has received sign-off from the Reviewer and is now finalized. 
 
 An assessment can return to `Pending` if it needs to be worked again.
 
