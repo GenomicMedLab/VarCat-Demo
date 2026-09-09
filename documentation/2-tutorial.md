@@ -10,23 +10,8 @@ From the home page, open an assessment by:
 
 ![Landing page](/documentation/images/landing-page.png)
 
-## 2. Explore the Assessment's Structure
 
-![Assessment layout](/documentation/images/assessment-anatomy.png)
-
-1. The **header** identifies the variant/disease pairing.
-2. The **status section** shows the assessment's current [status](./1-concepts.md#assessment-statuses), checkout information, and status history. Use this section to:
-    - _Move_ the assessment to the next or previous status
-    - _Overtake_ an active assessment from another user
-    - _Review_ the assessment's status history, including _who_ previously checked out the assessment and _when_
-3. The **summary modal** lists the assessment's assertions (left) and displays a summary of the selected assertion (right), including its:
-    - _Classification_: The current conclusion drawn by this assertion
-    - _Score_: The current strength of support the applied evidence has for this conclusion
-    - _Applied Evidence_: A summary list of the evidence currently contributing to that result
-4. **Evidence tabs** contain the evidence for each assertion type.
-5. The **table of contents sidebar** allows quick navigation to the various sections of the assessment.
-
-## 3. Change the Status to `Active`
+## 2. Change the Status to `Active`
 An assessment must be `Active` before you can edit it.
 
 Use the status control in the upper right corner to move the assessment to `Active`.
@@ -38,7 +23,7 @@ Only one user can edit an assessment at a time. If it is currently checked out b
 ![Overtake assessment](/documentation/images/overtake-assessment.jpg)
 
 
-## 4. Review the Oncogenicity Assertion
+## 3. Review the Oncogenicity Assertion
 VarCat creates an initial oncogenicity assertion automatically. Look it over and update it as needed:
 
 ### A) Audit Each Section's Evidence
@@ -63,7 +48,7 @@ The oncogenicity assertion's overall score is the **sum** of all individual sect
 
 ![alt text](./images/edit-assertion-score.png)
 
-## 5. [Optional] Add or Review Other Assertions
+## 4. [Optional] Add or Review Other Assertions
 If needed, add or review therapeutic, diagnostic, and/or prognostic assertions.
 
 Use the Summary Modal to view assertions that already exist:
@@ -95,7 +80,7 @@ You can manually adjust the applied strength for a evidence line grouping from t
 ![Change grouped score](/documentation/images/summary-modal-change-section-score.png)
 
 
-## 6. Change the Status to `Awaiting Review`
+## 5. Change the Status to `Awaiting Review`
 When the assessment is complete, update its status to `Awaiting Review` so it can be reviewed and signed off.
 
 ![Awaiting review](/documentation/images/ready-for-review.png)
