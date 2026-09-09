@@ -70,14 +70,15 @@ An assessment can return to `Pending` if it needs to be worked again.
 
 ![Assessment layout](/documentation/images/assessment-anatomy.png)
 
-1. The **header** identifies the variant/disease pairing.
-2. The **status section** shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
+1. **Header**: identifies the variant/disease pairing.
+2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
     - _Move_ the assessment to the next or previous status
     - _Overtake_ an active assessment from another user
     - _Review_ the assessment's status history, including _who_ previously checked out the assessment and _when_
-3. The **summary modal** lists the assessment's assertions (left) and displays a summary of the selected assertion (right), including its:
+3. **Summary Modal**: lists the assessment's assertions (left) and displays a summary of the selected assertion (right), including its:
     - _Classification_: The current conclusion drawn by this assertion
     - _Score_: The current strength of support the applied evidence has for this conclusion
     - _Applied Evidence_: A summary list of the evidence currently contributing to that result
-4. **Evidence tabs** contain the evidence for each assertion type.
-5. The **table of contents sidebar** allows quick navigation to the various sections of the assessment.
+4. **Evidence Tabs**: contain the evidence for each assertion type.
+5. **Table of contents sidebar**: allows quick navigation to the various sections of the assessment.
+6. **Info Tab**: An dynamically-updating informational sidebar with additional explanations about VarCat and the content of the current tab.
