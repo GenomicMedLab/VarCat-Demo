@@ -55,7 +55,7 @@ Use the Summary Modal to view assertions that already exist:
 
 ![Summary modal diagnostic tab](/documentation/images/summary-tab-diagnostic-inclusion.png)
 
-Click the corresponding evidence tab below to work on an existing assertion. If no assertion exists yet for that type, applying the first piece of evidence will create it automatically.
+Click the corresponding evidence tab below to work on an existing assertion and/or create a new assertion. If no assertion exists yet for the type of evidence you're viewing, applying the first piece of evidence will create it automatically.
 
 ![Diagnostic evidence tab click](/documentation/images/evidence-tab-diagnostic-click.png)
 
@@ -65,11 +65,11 @@ Toggle between variant-level and gene-level evidence where available:
 
 ![Variant evidence view](/documentation/images/case-control-variant.png)
 
-If needed, add new evidence with **Add Evidence**.
+If needed, add new evidence with the **Add Evidence** button.
 
 ![Add evidence button](/documentation/images/add-evidence-click.png)
 
-Apply evidence with the `Apply As` dropdown, if needed.
+Apply evidence with the **Apply As** dropdown, if needed.
 
 ![Apply evidence](/documentation/images/apply-evidence.png)
 
@@ -79,8 +79,10 @@ You can manually adjust the applied strength for a evidence line grouping from t
 
 ![Change grouped score](/documentation/images/summary-modal-change-section-score.png)
 
+You can also manually override the classification for the entire assertion as a whole by clicking the pencil icon in the upper right corner of the summary modal, just like Oncogenicity assertions.
+
 
 ## 5. Change the Status to `Awaiting Review`
-When the assessment is complete, update its status to `Awaiting Review` so it can be reviewed and signed off.
+When the assessment is complete, update its status to `Awaiting Review` so it can be reviewed and receive sign off.
 
 ![Awaiting review](/documentation/images/ready-for-review.png)
