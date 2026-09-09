@@ -14,7 +14,7 @@ From the home page, open an assessment by:
 ## 2. Change the Status to `Active`
 An assessment must be `Active` before you can edit it.
 
-Use the status control in the upper right corner to move the assessment to `Active`.
+Use the status control in the upper right corner to move through the status lifecycle until you reach `Active`:
 
 ![Start assessment](/documentation/images/start-assessment.png)
 
@@ -84,6 +84,6 @@ You can also manually override the classification for the entire assertion as a 
 
 
 ## 5. Change the Status to `Awaiting Review`
-When the assessment is complete, update its status to `Awaiting Review` so it can be reviewed and receive sign off.
+When the assessment is complete, use the status control button to select "Ready for Review" to update the assessment's status to `Awaiting Review`. Now it's ready for final review and sign-off!
 
 ![Awaiting review](/documentation/images/ready-for-review.png)
