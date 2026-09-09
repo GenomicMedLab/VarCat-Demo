@@ -22,21 +22,25 @@ Every assessment contains one or more assertions that analyze different aspects 
 \*An Oncogenicity Classification assertion is **required** on every assessment; all other assertions are optional.
 
 ### Evidence
-**Evidence** is the information used to support or refute an assertion.
-
-Evidence is handled in two steps:
+**Evidence** is the information used to support or refute an assertion. It is handled in two steps:
 
 1. **Curation**:
    - VarCat pulls in evidence automatically from a variety of sources where possible. Users may optionally add additional evidence from other sources or edit the VarCat-curated evidence if desired.
 2. **Application**:
-   - Curated evidence must be applied to an assertion by giving it a **score** that tells VarCat the _strength_ and _directionality_ of its impact:
+   - Curated evidence must be **applied** to an assertion by giving it a score that tells VarCat the _strength_ and _directionality_ of its impact:
       - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the Assertion is attempting to make
       - **Strength**: How _confident_ we are that this evidence supports that conclusion
+   - Similar evidence is applied together and evaluated as one - see [Evidence Line](#evidence-line) below.
+
+#### A Note on Applying Evidence: `Not Applied`/`Not Applicable` and `Not Assessed`
+Evidence can be applied a variety of different ways, depending on its type; however, most evidence will have the option of being applied as `Not Assessed`, and all evidence can be set to `Not Applied`:
+   - `Not Assessed`: Indicates that this evidence was **not evaluated**. It has no impact on the Assertion's overall score, either positively or negatively.
+   - `Not Applied`/`Not Applicable`: Indicates that this evidence was determined to be **irrelevant** to the Assertion. It also has no impact on the Assertion's overall score.
 
 #### Shared Evidence
 Evidence for a variant is **shared** across all of that variant's assessments to reduce duplicative curation efforts.
 
-Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted. Evidence is **locked** (i.e., unable to be edited) after an assessment on which it's been applied is set to `Reviewed` (see [Assessment Statuses](#assessment-statuses) below).
+Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted. Evidence is **locked** (i.e., unable to be edited) after an assessment on which it's been applied is set to `Reviewed` (see [Assessment Status](#assessment-status) below).
 
 ### Evidence Line
 Evidence items of the same type are grouped together under a single **evidence line**. All items grouped under a given evidence line are evaluated as one and are applied **under a single score**.
