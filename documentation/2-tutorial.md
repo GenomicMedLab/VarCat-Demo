@@ -39,7 +39,9 @@ Only one user can edit an assessment at a time. If it is currently checked out b
 
 
 ## 4. Review the Oncogenicity Assertion
-VarCat creates an initial oncogenicity assertion automatically.
+VarCat creates an initial oncogenicity assertion automatically. Look it over and update it as needed:
+
+### A) Audit Each Section's Evidence
 
 Oncogenicity evidence is organized into sections by type. Each section has:
 
@@ -55,7 +57,11 @@ Review each evidence section and update it as needed. You can:
 - Revise the section's auto-selected code
 - Change the section's auto-computed score
 
-The oncogenicity assertion's overall score is the **sum** of all individual section scores.
+### B) Validate the Assertion's Overall Score
+
+The oncogenicity assertion's overall score is the **sum** of all individual sections' scores. However, you may manually override this if necessary by clicking the pencil icon in the upper right-hand corner of the summary modal:
+
+![alt text](./images/edit-assertion-score.png)
 
 ## 5. [Optional] Add or Review Other Assertions
 If needed, add or review therapeutic, diagnostic, and/or prognostic assertions.
@@ -84,7 +90,7 @@ Apply evidence with the `Apply As` dropdown, if needed.
 
 After evidence is applied, the summary modal updates to reflect the assertion's current state. The assertion's overall classification and score are determined by the **highest ranked** evidence that is currently applied.
 
-You can manually adjust the applied strength for a evidence line grouping from the summary modal. You will be asked to provide a rationale for your decision.
+You can manually adjust the applied strength for a evidence line grouping from the summary modal.
 
 ![Change grouped score](/documentation/images/summary-modal-change-section-score.png)
 
