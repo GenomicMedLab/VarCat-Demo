@@ -68,7 +68,7 @@ An assessment can return to `Pending` if it needs to be worked again.
 
 ## Anatomy of an Assessment
 
-![Assessment layout](/documentation/images/assessment-anatomy.png)
+![assessment anatomy](/documentation/images/assessment-anatomy.png)
 
 1. **Header**: identifies the variant/disease pairing.
 2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:

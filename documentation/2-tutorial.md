@@ -20,7 +20,7 @@ Use the status control in the upper right corner to move through the status life
 
 Only one user can edit an assessment at a time. If it is currently checked out by another user, you will need to overtake it:
 
-![Overtake assessment](/documentation/images/overtake-assessment.jpg)
+![Overtake assessment](/documentation/images/overtake-assessment.png)
 
 
 ## 3. Review the Oncogenicity Assertion
@@ -47,18 +47,18 @@ Review each evidence section and update it as needed. You can:
 
 The oncogenicity assertion's overall score is the **sum** of all individual sections' scores. However, you may manually override this if necessary by clicking the pencil icon in the upper right-hand corner of the summary modal:
 
-![alt text](./images/edit-assertion-score.png)
+![Edit assertion score](./images/edit-assertion-score.png)
 
 ## 4. [Optional] Add or Review Other Assertions
 If needed, add or review therapeutic, diagnostic, and/or prognostic assertions.
 
 Use the Summary Modal to view assertions that already exist:
 
-![Summary modal diagnostic tab](/documentation/images/summary-tab-diagnostic-inclusion.png)
+![Summary modal diagnostic tab](./images/summary-modal-diagnostic-inclusion-tab.png)
 
 Click the corresponding evidence tab below to work on an existing assertion and/or create a new assertion. If no assertion exists yet for the type of evidence you're viewing, applying the first piece of evidence will create it automatically.
 
-![Diagnostic evidence tab click](/documentation/images/evidence-tab-diagnostic-click.png)
+![Diagnostic evidence tab click](/documentation/images/diagnostic-evidence-tab-diagnostic-click.png)
 
 Toggle between variant-level and gene-level evidence where available:
 
