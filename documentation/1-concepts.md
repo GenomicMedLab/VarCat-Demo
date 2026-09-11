@@ -1,16 +1,35 @@
 # Concepts to Know
 
 ## Overview
-VarCat assists users in evaluating somatic variant/disease pairings by curating evidence to support conclusions about oncogenicity and, when needed, therapeutic, diagnostic, and/or prognostic significance.
+VarCat assists users in evaluating somatic variant/disease pairings by curating evidence to support conclusions about oncogenicity and, when needed, therapeutic, diagnostic, and/or prognostic significance. Such evaluations are called "assessments," which are structured as shown below:
+
+
+## Anatomy of an Assessment
+![assessment anatomy](./images/anatomy-of-an-assessment.jpg)
+
+1. **Header**: identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
+2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
+    - _Move_ the assessment to the next or previous status
+    - _Overtake_ an active assessment from another user
+    - _Review_ the assessment's status history, including _who_ previously checked out the assessment and _when_
+3. **Summary Modal**: lists the assessment's [assertions](#assertion) (left) and displays a summary of the selected assertion (right), including its:
+    - _Classification_: The current conclusion drawn by this assertion
+    - _Score_: The current strength of support the applied evidence has for this conclusion
+    - _Applied Evidence_: A summary list of the evidence currently contributing to that result
+4. **Evidence Tabs**: contain the evidence for each assertion type.
+5. **Quick-Nav sidebar**: allows quick navigation to the various sections of the assessment, and displays current assessment progress.
+6. **Info Button**: Pulls up a dynamically-updating informational sidebar with additional explanations about VarCat and the content of the current assertion.
+
 
 ## Core Terms
+
 ### Assessment
 An **assessment** is a review of one variant/disease pairing.
 
 ### Assertion
 An **assertion** is one conclusion within an assessment.
 
-Every assessment contains one or more assertions that analyze different aspects of the pairing according to the following standardized guidelines: 
+Every assessment contains one or more assertions that analyze different aspects of the variant/disease pairing according to the following standardized guidelines: 
 
 - **[ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures](https://cancervariants.org/research/standards/onc_path_sop/):**
    - Oncogenicity Classification*
@@ -65,20 +84,3 @@ An assessment can return to `Pending` if it needs to be worked again.
 | _Evidence_ | Information used to support or refute an assertion. |
 | _Evidence Line_ | A set of related evidence items scored together. |
 | _Assessment Status_ | The current stage of the assessment workflow. |
-
-## Anatomy of an Assessment
-
-![assessment anatomy](/documentation/images/assessment-anatomy.png)
-
-1. **Header**: identifies the variant/disease pairing.
-2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
-    - _Move_ the assessment to the next or previous status
-    - _Overtake_ an active assessment from another user
-    - _Review_ the assessment's status history, including _who_ previously checked out the assessment and _when_
-3. **Summary Modal**: lists the assessment's assertions (left) and displays a summary of the selected assertion (right), including its:
-    - _Classification_: The current conclusion drawn by this assertion
-    - _Score_: The current strength of support the applied evidence has for this conclusion
-    - _Applied Evidence_: A summary list of the evidence currently contributing to that result
-4. **Evidence Tabs**: contain the evidence for each assertion type.
-5. **Table of contents sidebar**: allows quick navigation to the various sections of the assessment.
-6. **Info Tab**: An dynamically-updating informational sidebar with additional explanations about VarCat and the content of the current tab.
