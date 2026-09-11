@@ -38,7 +38,7 @@ Oncogenicity evidence is organized into sections by type (i.e., [Evidence Lines]
 
 Review each evidence section and update it as needed. You can:
 
-- Curate your own additional evidence manually (via the "Add Evidence" button)
+- [Curate your own additional evidence manually](3-manual-evidence.md#oncogenicity-assertions) (via the "Add Evidence" button)
 - Revise the evidence line's auto-selected code (via the code selection dropdown)
 - Change the evidence line's auto-computed score (via the score selection dropdown)
 - Review the evidence line's history (on the section's history tab, accessed via the "rewind" icon in the upper-right corner of the section)
@@ -66,7 +66,7 @@ Toggle between variant-level and gene-level evidence where available:
 
 ![Variant evidence view](/documentation/images/case-control-variant.png)
 
-If needed, add new evidence with the **Add Evidence** button.
+If needed, [add new evidence](3-manual-evidence.md#all-other-assertions) with the **Add Evidence** button.
 
 ![Add evidence button](/documentation/images/add-evidence-click.png)
 
