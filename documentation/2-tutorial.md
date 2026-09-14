@@ -41,7 +41,10 @@ Review each evidence section and update it as needed. You can:
 - [Curate your own additional evidence manually](3-manual-evidence.md#oncogenicity-assertions) (via the "Add Evidence" button)
 - Revise the evidence line's auto-selected code (via the code selection dropdown)
 - Change the evidence line's auto-computed score (via the score selection dropdown)
-- Review the evidence line's history (on the section's history tab, accessed via the "rewind" icon in the upper-right corner of the section)
+- Review the evidence line's history (on the section's history tab, accessed via the "rewind" icon in the upper-right corner of the section - see image below)
+
+_History Tab Button:_
+![History tab](./images/history-tab.png)
 
 ### B) Validate the Assertion's Overall Score
 
@@ -50,7 +53,7 @@ The oncogenicity assertion's overall score is the **sum** of all individual sect
 ![Edit assertion score](./images/edit-assertion-score.png)
 
 ## 4. [Optional] Add or Review Other Assertions
-If needed, add or review therapeutic, diagnostic, and/or prognostic assertions.
+If needed, add or review **therapeutic**, **diagnostic**, and/or **prognostic** assertions.
 
 Use the Summary Modal to view assertions that already exist:
 
@@ -84,6 +87,6 @@ You can also manually override the classification for the entire assertion as a 
 
 
 ## 5. Change the Status to `Awaiting Review`
-When the assessment is complete, use the status control button to select "Ready for Review" to update the assessment's status to `Awaiting Review`. Now it's ready for final review and sign-off!
+When the assessment is complete, use the status control button to select "Ready for Review" to update the assessment's status to `Awaiting Review`. It is now ready for final review and sign-off.
 
 ![Awaiting review](/documentation/images/ready-for-review.png)
