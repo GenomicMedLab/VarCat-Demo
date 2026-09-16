@@ -31,9 +31,9 @@ An **assertion** is one conclusion within an assessment.
 
 Every assessment contains one or more assertions that analyze different aspects of the variant/disease pairing according to the following standardized guidelines: 
 
-- **[ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures](https://cancervariants.org/research/standards/onc_path_sop/):**
+- **[ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures (2022)](https://cancervariants.org/research/standards/onc_path_sop/):**
    - Oncogenicity Classification*
-- **[AMP/ASCO/CAP Guidelines](https://pubmed.ncbi.nlm.nih.gov/27993330/):**
+- **[AMP/ASCO/CAP Guidelines (2017)](https://pubmed.ncbi.nlm.nih.gov/27993330/):**
    - Therapeutic Response
    - Diagnostic Inclusion/Exclusion
    - Prognostic Outcome Prediction
