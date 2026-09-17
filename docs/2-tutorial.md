@@ -28,7 +28,7 @@ VarCat creates an initial oncogenicity assertion automatically. Look it over and
 
 ### A) Audit Each Section's Evidence
 
-Oncogenicity evidence is organized into sections by type (i.e., [Evidence Lines](./1-concepts.md#evidence-line)). Each Evidence Line section has:
+Oncogenicity evidence is organized into sections by type (i.e., [Evidence Lines](1-concepts.md#evidence-line)). Each Evidence Line section has:
 
 - Any **evidence items** of the titular type
 - A **code** indicating the significance of the findings
@@ -44,20 +44,20 @@ Review each evidence section and update it as needed. You can:
 - Review the evidence line's history (on the section's history tab, accessed via the "rewind" icon in the upper-right corner of the section - see image below)
 
 _History Tab Button:_
-![History tab](./images/history-tab.png)
+![History tab](../documentation/images/history-tab.png)
 
 ### B) Validate the Assertion's Overall Score
 
 The oncogenicity assertion's overall score is the **sum** of all individual sections' scores. However, you may manually override this if necessary by clicking the pencil icon in the upper right-hand corner of the summary modal:
 
-![Edit assertion score](./images/edit-assertion-score.png)
+![Edit assertion score](../documentation/images/edit-assertion-score.png)
 
 ## 4. [Optional] Add or Review Other Assertions
 If needed, add or review **therapeutic**, **diagnostic**, and/or **prognostic** assertions.
 
 Use the Summary Modal to view assertions that already exist:
 
-![Summary modal diagnostic tab](./images/summary-modal-diagnostic-inclusion-tab.png)
+![Summary modal diagnostic tab](../documentation/images/summary-modal-diagnostic-inclusion-tab.png)
 
 Click the corresponding evidence tab below to work on an existing assertion and/or create a new assertion. If no assertion exists yet for the type of evidence you're viewing, applying the first piece of evidence will create it automatically.
 

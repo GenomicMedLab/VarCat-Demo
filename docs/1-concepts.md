@@ -5,7 +5,7 @@ VarCat assists users in evaluating somatic variant/disease pairings by curating 
 
 
 ## Anatomy of an Assessment
-![assessment anatomy](./images/anatomy-of-an-assessment.jpg)
+![assessment anatomy](../documentation/images/anatomy-of-an-assessment.jpg)
 
 1. **Header**: identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
 2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
