@@ -46,8 +46,8 @@ Every assessment contains one or more assertions that analyze different aspects 
 1. **Curation**:
    - VarCat pulls in evidence automatically from a variety of sources where possible. Users may optionally add additional evidence from other sources or edit the VarCat-curated evidence if desired.
 2. **Application**:
-   - Curated evidence must be **applied** to an assertion by giving it a score that tells VarCat the _strength_ and _directionality_ of its impact:
-      - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the Assertion is attempting to make
+   - In order for evidence to count towards the assertion's outcome, it must be **applied** to the assertion by giving it a score that tells VarCat the _strength_ and _directionality_ of its impact:
+      - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the assertion is attempting to make
       - **Strength**: How _confident_ we are that this evidence supports that conclusion
    - Similar evidence is applied together and evaluated as one - see [Evidence Line](#evidence-line) below.
 
@@ -71,10 +71,12 @@ Assessments move through a lifecycle of the following statuses:
 1. `Pending`: Assessment has not yet been completed.
 2. `Active`: Assessment is actively being filled out.
 3. `Awaiting Review`: Assessment is complete, but awaiting expert review and final sign-off.
-4. `In Review`: Assessment is being reviewed by a subject matter expert (e.g., Clinical Director or similar)
+4. `In Review`: Assessment is being reviewed by a designated authority (e.g., Clinical Director or similar)*
 5. `Reviewed`: Assessment has received sign-off from the Reviewer and is now finalized. 
 
 An assessment can return to `Pending` if it needs to be worked again.
+
+> ⚠️ _***NOTE**: Reviewing privileges have intentionally been restricted for the demo site. You will **not** be able to set an assessment's status to `In Review` or `Reviewed`._
 
 ## Quick-Reference Glossary
 | Term | Meaning |
