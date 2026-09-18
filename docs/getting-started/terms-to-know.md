@@ -2,7 +2,7 @@
 icon: lucide/book-open
 ---
 
-# Concepts to Know
+# Terms to Know
 
 ## Overview
 VarCat assists users in evaluating somatic variant/disease pairings by curating evidence to support conclusions about oncogenicity and, when needed, therapeutic, diagnostic, and/or prognostic significance. Such evaluations are called "assessments," which are structured as shown below:

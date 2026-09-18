@@ -9,7 +9,7 @@ of variant interpretation knowledge using GA4GH Genomic Knowledge Standards.
 
 ## Getting Started
 
-1. First, check out our overview of [key terms and concepts](getting-started/concepts.md) to know before beginning with VarCat.
+1. First, check out our overview of [key terms and concepts](getting-started/terms-to-know.md) to know before beginning with VarCat.
 
 2. Then, continue over to our [walkthrough](getting-started/walkthrough.md) to learn how to complete your first variant/disease evaluation.
 

@@ -13,7 +13,7 @@ site_name = "VarCat Documentation"
 nav = [
   { "Home" = "index.md" },
   { "Getting Started" = [
-    {"Concepts to Know" = "getting-started/concepts.md"},
+    {"Terms to Know" = "getting-started/terms-to-know.md"},
     {"Walkthrough: How to Complete an Assessment" = "getting-started/walkthrough.md"}
   ]},
   { "Additional Reference" = [
