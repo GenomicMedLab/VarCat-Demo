@@ -8,7 +8,7 @@ icon: lucide/book-open
 VarCat assists users in evaluating somatic variant/disease pairings by curating evidence to support conclusions about oncogenicity and, when needed, therapeutic, diagnostic, and/or prognostic significance. Such evaluations are called "assessments," which are structured as shown below:
 
 
-## Anatomy of an Assessment
+### Anatomy of an Assessment
 ![assessment anatomy](../assets/anatomy-of-an-assessment.jpg)
 
 1. **Header**: identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
