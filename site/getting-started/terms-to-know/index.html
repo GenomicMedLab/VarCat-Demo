@@ -1001,12 +1001,16 @@
 <p>An <strong>assertion</strong> is one conclusion within an assessment.</p>
 <p>Every assessment contains one or more assertions that analyze different aspects of the variant/disease pairing according to the following standardized guidelines: </p>
 <ul>
-<li><strong><a href="https://cancervariants.org/research/standards/onc_path_sop/">ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures (2022)</a>:</strong></li>
+<li><strong><a href="https://cancervariants.org/research/standards/onc_path_sop/">ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures (2022)</a>:</strong><ul>
 <li>Oncogenicity Classification*</li>
-<li><strong><a href="https://pubmed.ncbi.nlm.nih.gov/27993330/">AMP/ASCO/CAP Guidelines (2017)</a>:</strong></li>
+</ul>
+</li>
+<li><strong><a href="https://pubmed.ncbi.nlm.nih.gov/27993330/">AMP/ASCO/CAP Guidelines (2017)</a>:</strong><ul>
 <li>Therapeutic Response</li>
 <li>Diagnostic Inclusion/Exclusion</li>
 <li>Prognostic Outcome Prediction</li>
+</ul>
+</li>
 </ul>
 <p>*An Oncogenicity Classification assertion is <strong>required</strong> on every assessment; all other assertions are optional.</p>
 <h3 id="evidence">Evidence<a class="headerlink" href="#evidence" title="Permanent link">&para;</a></h3>
@@ -1026,13 +1030,13 @@
 </ul>
 </li>
 </ol>
-<div class="admonition warning">
+<div class="admonition info">
 <p class="admonition-title">A Note on Applying Evidence: <code>Not Applied</code>/<code>Not Applicable</code> and <code>Not Assessed</code></p>
 <p>Evidence can be applied a variety of different ways, depending on its type; however, most evidence will have the option of being applied as <code>Not Assessed</code>, and all evidence can be set to <code>Not Applied</code>:
-  <ul>
-     <li> <code>Not Assessed</code>: Indicates that this evidence was <strong>not evaluated</strong>. It has no impact on the Assertion's overall score, either positively or negatively.</li>
-     <li> <code>Not Applied</code>/<code>Not Applicable</code>: Indicates that this evidence was determined to be <strong>irrelevant</strong> to the Assertion. It also has no impact on the Assertion's overall score.</li>
-  </ul></p>
+<ul>
+   <li> <code>Not Assessed</code>: Indicates that this evidence was <strong>not evaluated</strong>. It has no impact on the Assertion's overall score, either positively or negatively.</li>
+   <li> <code>Not Applied</code>/<code>Not Applicable</code>: Indicates that this evidence was determined to be <strong>irrelevant</strong> to the Assertion. It also has no impact on the Assertion's overall score.</li>
+</ul></p>
 </div>
 <h4 id="shared-evidence">Shared Evidence<a class="headerlink" href="#shared-evidence" title="Permanent link">&para;</a></h4>
 <p>Evidence for a variant is <strong>shared</strong> across all of that variant's assessments to reduce duplicative curation efforts.</p>
@@ -1049,9 +1053,10 @@
 <li><code>Reviewed</code>: Assessment has received sign-off from the Reviewer and is now finalized. </li>
 </ol>
 <p>An assessment can return to <code>Pending</code> if it needs to be worked again.</p>
-<blockquote>
-<p>⚠️ <em>*<strong>NOTE</strong>: Reviewing privileges have intentionally been restricted for the demo site. You will <strong>not</strong> be able to set an assessment's status to <code>In Review</code> or <code>Reviewed</code>.</em></p>
-</blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Review restrictions</p>
+<p>Reviewing privileges have intentionally been restricted for the demo site. You will <strong>not</strong> be able to set an assessment's status to <code>In Review</code> or <code>Reviewed</code>.</p>
+</div>
 <h2 id="quick-reference-glossary">Quick-Reference Glossary<a class="headerlink" href="#quick-reference-glossary" title="Permanent link">&para;</a></h2>
 <table>
 <thead>

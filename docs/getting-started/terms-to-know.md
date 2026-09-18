@@ -36,11 +36,11 @@ An **assertion** is one conclusion within an assessment.
 Every assessment contains one or more assertions that analyze different aspects of the variant/disease pairing according to the following standardized guidelines: 
 
 - **[ClinGen/CGC/VICC Oncogenicity Standard Operating Procedures (2022)](https://cancervariants.org/research/standards/onc_path_sop/):**
-   - Oncogenicity Classification*
+      - Oncogenicity Classification*
 - **[AMP/ASCO/CAP Guidelines (2017)](https://pubmed.ncbi.nlm.nih.gov/27993330/):**
-   - Therapeutic Response
-   - Diagnostic Inclusion/Exclusion
-   - Prognostic Outcome Prediction
+      - Therapeutic Response
+      - Diagnostic Inclusion/Exclusion
+      - Prognostic Outcome Prediction
 
 \*An Oncogenicity Classification assertion is **required** on every assessment; all other assertions are optional.
 
@@ -55,13 +55,12 @@ Every assessment contains one or more assertions that analyze different aspects 
          - **Strength**: How _confident_ we are that this evidence supports that conclusion
       - Similar evidence is applied together and evaluated as one - see [Evidence Line](#evidence-line) below.
 
-!!! warning "A Note on Applying Evidence: `Not Applied`/`Not Applicable` and `Not Assessed`"
+!!! info "A Note on Applying Evidence: `Not Applied`/`Not Applicable` and `Not Assessed`"
     Evidence can be applied a variety of different ways, depending on its type; however, most evidence will have the option of being applied as `Not Assessed`, and all evidence can be set to `Not Applied`:
-      <ul>
-         <li> `Not Assessed`: Indicates that this evidence was **not evaluated**. It has no impact on the Assertion's overall score, either positively or negatively.</li>
-         <li> `Not Applied`/`Not Applicable`: Indicates that this evidence was determined to be **irrelevant** to the Assertion. It also has no impact on the Assertion's overall score.</li>
-      </ul>
-
+    <ul>
+       <li> `Not Assessed`: Indicates that this evidence was **not evaluated**. It has no impact on the Assertion's overall score, either positively or negatively.</li>
+       <li> `Not Applied`/`Not Applicable`: Indicates that this evidence was determined to be **irrelevant** to the Assertion. It also has no impact on the Assertion's overall score.</li>
+    </ul>
 
 #### Shared Evidence
 Evidence for a variant is **shared** across all of that variant's assessments to reduce duplicative curation efforts.
@@ -83,7 +82,8 @@ Assessments move through a lifecycle of the following statuses:
 
 An assessment can return to `Pending` if it needs to be worked again.
 
-> ⚠️ _***NOTE**: Reviewing privileges have intentionally been restricted for the demo site. You will **not** be able to set an assessment's status to `In Review` or `Reviewed`._
+!!! warning "Review restrictions"
+    Reviewing privileges have intentionally been restricted for the demo site. You will **not** be able to set an assessment's status to `In Review` or `Reviewed`.
 
 ## Quick-Reference Glossary
 | Term | Meaning |
