@@ -1,4 +1,8 @@
-# Tutorial: How to Complete an Assessment
+---
+icon: lucide/footprints
+---
+
+# Walkthrough: How to Complete an Assessment
 
 This guide walks through a typical assessment workflow in VarCat.
 

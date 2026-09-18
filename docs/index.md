@@ -1,3 +1,6 @@
+---
+icon: lucide/house
+---
 # Welcome to VarCat, The Variation Categorizer
 
 The Variation Categorizer (VarCat) is a web platform developed to support structured pediatric somatic cancer variant classification.
@@ -9,4 +12,4 @@ of variant interpretation knowledge using GA4GH Genomic Knowledge Standards.
 
 First, check out our overview of [key terms and concepts](getting-started/concepts.md) to know before beginning with VarCat.
 
-Then, head over to our [tutorial](getting-started/tutorial.md) to learn how to complete your first variant/disease evaluation.
+Then, head over to our [tutorial](getting-started/walkthrough.md) to learn how to complete your first variant/disease evaluation.

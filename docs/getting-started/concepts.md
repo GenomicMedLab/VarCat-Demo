@@ -1,3 +1,7 @@
+---
+icon: lucide/book-open
+---
+
 # Concepts to Know
 
 ## Overview

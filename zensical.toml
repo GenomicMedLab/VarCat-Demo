@@ -14,7 +14,7 @@ nav = [
   { "Home" = "index.md" },
   { "Getting Started" = [
     {"Terms to Know" = "getting-started/concepts.md"},
-    {"Tutorial: How to Complete an Assessment" = "getting-started/tutorial.md"}
+    {"Walkthrough: How to Complete an Assessment" = "getting-started/walkthrough.md"}
   ]},
   { "Additional Reference" = [
     {"Manual Evidence Curation" = "additional-reference/manual-evidence.md"},

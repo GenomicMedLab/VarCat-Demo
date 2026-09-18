@@ -1,3 +1,7 @@
+---
+icon: lucide/copyright
+---
+
 # Usage and Attribution
 
 

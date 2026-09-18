@@ -1,3 +1,7 @@
+---
+icon: lucide/file-plus
+---
+
 # Adding Evidence Manually
 VarCat automatically pulls in evidence from a variety of sources for all assertions. However, assessors may also manually add their own additional evidence if desired.
 The following details how to add your own evidence to any assertion.
