@@ -56,7 +56,7 @@ The oncogenicity assertion's overall score is the **sum** of all individual sect
 
 ![Edit assertion score](../assets/edit-assertion-score.png)
 
-## 4. [Optional] Add or Review Other Assertions
+## 4. \[Optional] Add or Review Other Assertions
 If needed, add or review **therapeutic**, **diagnostic**, and/or **prognostic** assertions.
 
 Use the Summary Modal to view assertions that already exist:
