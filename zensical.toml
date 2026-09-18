@@ -18,6 +18,9 @@ nav = [
   ]},
   { "Additional Reference" = [
     {"Manual Evidence Curation" = "additional-reference/manual-evidence.md"},
+  ]},
+  {"Usage and Attribution" = [
+    {"Licensing and Citation" = "usage-and-attribution/licensing-and-citation.md"}
   ]}
 ]
 
