@@ -65,7 +65,8 @@ Every assessment contains one or more assertions that analyze different aspects 
 #### Shared Evidence
 Evidence for a variant is **shared** across all of that variant's assessments to reduce duplicative curation efforts.
 
-Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted. Evidence is **locked** (i.e., unable to be edited) after an assessment on which it's been applied is set to `Reviewed` (see [Assessment Status](#assessment-status) below).
+Because of this, editing evidence can affect other assessments. In most cases, evidence should be added or unapplied, not edited or deleted. Evidence is **locked** 
+(i.e., unable to be edited) after any assessment on which it's been applied is set to `Reviewed` (see [Assessment Status](#assessment-status) below).
 
 ### Evidence Line
 Evidence items of the same type are grouped together under a single **evidence line**. All items grouped under a given evidence line are evaluated as one and are applied **under a single score**.
