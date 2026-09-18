@@ -1,29 +1,31 @@
 # Adding Evidence Manually
-VarCat automatically pulls in evidence from a variety of sources for all assertions. However, assessors may also manually add their own additional evidence if desired. The following details how to add your own evidence to an assertion.
+VarCat automatically pulls in evidence from a variety of sources for all assertions. However, assessors may also manually add their own additional evidence if desired.
+The following details how to add your own evidence to any assertion.
 
-## Oncogenicity Assertions
+## Adding Evidence to Oncogenicity Assertions
 To add evidence to an oncogenicity assertion, navigate to the sub-section for the relevant evidence type and select the section's "Add Evidence" button:
-![Clicking the "Add Evidence" button](/documentation/images/add-manual-onco-evidence-click.png)
+![Clicking the "Add Evidence" button](../assets/add-manual-onco-evidence-click.png)
 
-A pop-up modal will prompt you to enter the information required for the evidence entry. The available fields will depend on the type of evidence you are adding; but at a minimum, you will always be asked to provide your source for the evidence in the form of PMID(s) and/or Hypothes.is link(s).
+A pop-up modal will prompt you to enter the information required for the evidence entry. The available fields will depend on the type of evidence you are adding;
+but at a minimum, you will always be asked to provide your source for the evidence in the form of PMID(s) and/or Hypothes.is link(s).
 
-![Form for adding manual oncogenicity evidence](/documentation/images/manual-onc-evidence.png)
+![Form for adding manual oncogenicity evidence](../assets/manual-onc-evidence.png)
 
 The "Save" button will be disabled until all required fields have been filled. When everything is ready, hit "Save" to add this evidence to the assertion.
 
 
-## All Other Assertions
+## Adding Evidence to Non-Oncogenic Assertions
 
 Evidence for all other assertions is added via the "Add Evidence" button in the upper-right corner of the assertion's evidence tab:
-![add amp/asco/cap evidence button](/documentation/images/add-amp-evidence-button.png)
+![add amp/asco/cap evidence button](../assets/add-amp-evidence-button.png)
 
 The "Add Evidence" modal will display:
-![add evidence modal](/documentation/images/add-evidence-modal.png)
+![add evidence modal](../assets/add-evidence-modal.png)
 
 Fill out this form section by section as follows: 
 
 
-### Classification
+### Classification:
 
 | _Field_ | _Purpose_ |
 | ------- | --------- |

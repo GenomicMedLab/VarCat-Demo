@@ -5,7 +5,7 @@ VarCat assists users in evaluating somatic variant/disease pairings by curating 
 
 
 ## Anatomy of an Assessment
-![assessment anatomy](../documentation/images/anatomy-of-an-assessment.jpg)
+![assessment anatomy](../assets/anatomy-of-an-assessment.jpg)
 
 1. **Header**: identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
 2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
@@ -44,17 +44,20 @@ Every assessment contains one or more assertions that analyze different aspects 
 **Evidence** is the information used to support or refute an assertion. It is handled in two steps:
 
 1. **Curation**:
-   - VarCat pulls in evidence automatically from a variety of sources where possible. Users may optionally add additional evidence from other sources or edit the VarCat-curated evidence if desired.
+      - VarCat pulls in evidence automatically from a variety of sources where possible. Users may optionally add additional evidence from other sources or edit the VarCat-curated evidence if desired.
 2. **Application**:
-   - In order for evidence to count towards the assertion's outcome, it must be **applied** to the assertion by giving it a score that tells VarCat the _strength_ and _directionality_ of its impact:
-      - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the assertion is attempting to make
-      - **Strength**: How _confident_ we are that this evidence supports that conclusion
-   - Similar evidence is applied together and evaluated as one - see [Evidence Line](#evidence-line) below.
+      - In order for evidence to count towards the assertion's outcome, it must be **applied** to the assertion by giving it a score that tells VarCat the _strength_ and _directionality_ of its impact:
+         - **Directionality**: Whether the Evidence _supports_ or _refutes_ the statement the assertion is attempting to make
+         - **Strength**: How _confident_ we are that this evidence supports that conclusion
+      - Similar evidence is applied together and evaluated as one - see [Evidence Line](#evidence-line) below.
 
-#### A Note on Applying Evidence: `Not Applied`/`Not Applicable` and `Not Assessed`
-Evidence can be applied a variety of different ways, depending on its type; however, most evidence will have the option of being applied as `Not Assessed`, and all evidence can be set to `Not Applied`:
-   - `Not Assessed`: Indicates that this evidence was **not evaluated**. It has no impact on the Assertion's overall score, either positively or negatively.
-   - `Not Applied`/`Not Applicable`: Indicates that this evidence was determined to be **irrelevant** to the Assertion. It also has no impact on the Assertion's overall score.
+!!! warning "A Note on Applying Evidence: `Not Applied`/`Not Applicable` and `Not Assessed`"
+    Evidence can be applied a variety of different ways, depending on its type; however, most evidence will have the option of being applied as `Not Assessed`, and all evidence can be set to `Not Applied`:
+      <ul>
+         <li> `Not Assessed`: Indicates that this evidence was **not evaluated**. It has no impact on the Assertion's overall score, either positively or negatively.</li>
+         <li> `Not Applied`/`Not Applicable`: Indicates that this evidence was determined to be **irrelevant** to the Assertion. It also has no impact on the Assertion's overall score.</li>
+      </ul>
+
 
 #### Shared Evidence
 Evidence for a variant is **shared** across all of that variant's assessments to reduce duplicative curation efforts.
