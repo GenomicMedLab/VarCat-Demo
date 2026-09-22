@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.example.com/</loc>
+        <loc>https://GenomicMedLab.github.io/VarCat-Demo/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/getting-started/terms-to-know/</loc>
+        <loc>https://GenomicMedLab.github.io/VarCat-Demo/getting-started/terms-to-know/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/getting-started/walkthrough/</loc>
+        <loc>https://GenomicMedLab.github.io/VarCat-Demo/getting-started/walkthrough/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/additional-reference/manual-evidence/</loc>
+        <loc>https://GenomicMedLab.github.io/VarCat-Demo/additional-reference/manual-evidence/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/usage-and-attribution/licensing-and-citation/</loc>
+        <loc>https://GenomicMedLab.github.io/VarCat-Demo/usage-and-attribution/licensing-and-citation/</loc>
       </url>
 </urlset>
