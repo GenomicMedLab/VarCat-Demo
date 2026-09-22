@@ -83,7 +83,7 @@ Assessments move through a lifecycle of the following statuses:
 
 An assessment can return to `Pending` if it needs to be worked again.
 
-!!! warning "Review restrictions"
+!!! warning "Review Restrictions"
     Reviewing privileges have intentionally been restricted for the demo site. You will **not** be able to set an assessment's status to `In Review` or `Reviewed`.
 
 ## Quick-Reference Glossary
