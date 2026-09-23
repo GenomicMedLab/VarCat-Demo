@@ -1,34 +1,38 @@
 # VarCat Demonstration Platform
 
-This repository is a landing page for documentation and citation metadata related to the upcoming VarCat Demonstration Platform.
+This repository is a landing page for documentation and citation metadata related to the VarCat Demonstration Platform.
 
-The demonstration site is not yet live. When available, the demo landing page will be:
+---
 
-<https://demo.varcat.genomicmedlab.org>
+## ℹ️ Site Links:
+
+- **Live VarCat demonstration site**: <https://demo.varcat.genomicmedlab.org>
+- **Documentation** (including step-by-step tutorials): <https://genomicmedlab.github.io/VarCat-Demo/>
+
+---
 
 ## About VarCat
 
 The Variation Categorizer (VarCat) is a web platform developed to support structured pediatric somatic cancer variant classification. VarCat is designed to simplify the application of community somatic variant classification guidelines and support standards-based dissemination of variant interpretation knowledge using GA4GH Genomic Knowledge Standards.
 
-The demonstration platform will provide a public-facing example of how VarCat can be used to represent, review, and disseminate pediatric somatic cancer variant classification knowledge. It is intended to support grant review, collaborator orientation, and future documentation for users evaluating the VarCat workflow.
+The demonstration platform provides a public-facing example of how VarCat can be used to represent, review, and disseminate pediatric somatic cancer variant classification knowledge. It is intended to support grant review, collaborator orientation, and future documentation for users evaluating the VarCat workflow.
+
 
 ## Repository purpose
 
-This repository will be used to:
+This repository is be used to:
 
-- provide citation metadata for the VarCat Demonstration Platform;
-- document the goals and scope of the demo site;
-- link to the demo landing page when it becomes available;
-- collect user-facing documentation for demonstration workflows; and
-- support archiving through GitHub and Zenodo.
+- Provide citation metadata for the VarCat Demonstration Platform;
+- Document the goals and scope of the demo site;
+- Link to the demo landing page when it becomes available;
+- Collect user-facing documentation for demonstration workflows; and
+- Support archiving through GitHub and Zenodo.
 
-## Status
-
-The demo site is under development and is not yet live. Documentation in this repository will be updated as the demonstration platform becomes available.
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). If you reference the VarCat Demonstration Platform, please cite the archived Zenodo record generated from this repository once available.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). If you reference the VarCat Demonstration Platform, please cite the archived [Zenodo record](https://doi.org/10.5281/zenodo.20209807) generated from this repository.
+
 
 ## License
 
