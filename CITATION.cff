@@ -68,6 +68,12 @@ authors:
     given-names: "Catherine E."
   - family-names: "Shukla"
     given-names: "Krutin"
+  - family-names: "Bosley"
+    given-names: "Eric"
+  - family-names: "O'Sullivan"
+    given-names: "Colin"
+  - family-names: "Voytovich"
+    given-names: "Kyle"
 keywords:
   - "VarCat"
   - "Variation Categorizer"
