@@ -22,11 +22,11 @@ The demonstration platform provides a public-facing example of how VarCat can be
 
 This repository is be used to:
 
-- Provide citation metadata for the VarCat Demonstration Platform;
-- Document the goals and scope of the demo site;
-- Link to the demo landing page when it becomes available;
-- Collect user-facing documentation for demonstration workflows; and
-- Support archiving through GitHub and Zenodo.
+- Provide citation metadata for the VarCat Demonstration Platform
+- Document the goals and scope of the demo site
+- Link to the demo landing page when it becomes available
+- Collect user-facing documentation for demonstration workflows
+- Support archiving through GitHub and Zenodo
 
 
 ## Citation
