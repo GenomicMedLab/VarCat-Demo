@@ -11,18 +11,18 @@ VarCat assists users in evaluating somatic variant/disease pairings by curating 
 ### Anatomy of an Assessment
 ![assessment anatomy](../assets/anatomy-of-an-assessment.jpg)
 
-1. **Header**: identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
-2. **Status Section**: shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
+1. **Header**: Identifies the disease, genomic variant, associated gene concepts, and variant consequence under review.
+2. **Status Section**: Shows the assessment's current [status](#assessment-status), checkout information, and status history. Use this section to:
     - _Move_ the assessment to the next or previous status
     - _Overtake_ an active assessment from another user
-    - _Review_ the assessment's status history, including _who_ previously checked out the assessment and _when_
-3. **Summary Modal**: lists the assessment's [assertions](#assertion) (left) and displays a summary of the selected assertion (right), including its:
+    - _Examine_ the assessment's status history, including _who_ previously checked out the assessment and _when_
+3. **Summary Modal**: Lists the assessment's [assertions](#assertion) (left) and displays a summary of the selected assertion (right), including its:
     - _Classification_: The current conclusion drawn by this assertion
     - _Score_: The current strength of support the applied evidence has for this conclusion
     - _Applied Evidence_: A summary list of the evidence currently contributing to that result
-4. **Evidence Tabs**: contain the evidence for each assertion type.
-5. **Quick-Nav sidebar**: allows quick navigation to the various sections of the assessment, and displays current assessment progress.
-6. **Info Button**: Pulls up a dynamically-updating informational sidebar with additional explanations about VarCat and the content of the current assertion.
+4. **Evidence Tabs**: Contains the evidence for each assertion type.
+5. **Quick-Nav sidebar**: Allows quick navigation to the various sections of the assessment, and displays current assessment progress.
+6. **Documentation Link**: Opens the VarCat documentation site with walkthroughs, definitions, and other helpful information in a new tab.
 
 
 ## Core Terms
