@@ -9,10 +9,10 @@ This guide walks through a typical assessment workflow in VarCat.
 ## 1. Open an Assessment
 From the home page, open an assessment by:
 
-- a) Entering a variant + disease pairing in the form shown below, or
+- a) Entering a variant + disease pairing in the search bar, or
 - b) Selecting a previously-created assessment from the table
 
-![Landing page](../assets/landing-page.png)
+![Landing page](../assets/landing-page.jpg)
 
 
 ## 2. Change the Status to `Active`
@@ -20,7 +20,7 @@ An assessment must be `Active` before you can edit it.
 
 Use the status control in the upper right corner to move through the status lifecycle until you reach `Active`:
 
-![Start assessment](../assets/start-assessment.png)
+![Start assessment](../assets/start-assessment.jpg)
 
 Only one user can edit an assessment at a time. If it is currently checked out by another user, you will need to overtake it:
 
