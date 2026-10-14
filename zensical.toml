@@ -2,6 +2,7 @@
 site_url = "https://GenomicMedLab.github.io/VarCat-Demo/"
 site_name = "VarCat Documentation"
 site_description = "Documentation for VarCat, the Variation Categorizer"
+dev_addr = "localhost:5000"
 # site_author = "Your name"
 
 # copyright = "Copyright &copy; 2026 Your name"
